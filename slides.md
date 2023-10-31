@@ -25,10 +25,21 @@ transition: fade
 
 
 ---
-layout: center
+layout: two-cols-header
 ---
 
-<h1 class="h1">ないものを作った</h1>
+<h1 class="h1 text-center">0から仕組みを導入</h1>
+
+::left::
+<v-click>
+  <h1 class="h1">hello</h1>
+</v-click>
+
+
+::right::
+<div v-click>
+  //
+</div>
 
 <style>
 .h1 {
@@ -36,31 +47,64 @@ layout: center
 }
 </style>
 
-<!--
-aa
--->
 
 ---
-layout: statement
+layout: two-cols-header
 ---
 
+<h1 class="h1 text-center">大幅な作業時間の短縮</h1>
+
+::left::
+<v-click>
+  <div class="text-right">
+    <h3 class="h3">XX分 <span class="ml-30">==></span> </h3>
+  </div>
+</v-click>
+
+::right::
+<div v-click class="text-center">
+  <h2 class="h1 ">X分</h2>
+</div>
+
+<style>
+.h1 {
+  font-size: 4.8vw;
+}
+
+.h3 {
+  font-size: 3.6vw;
+}
+</style>
+
+---
+layout: center
+---
 
 <h1 class="h1">挑戦したこと</h1>
 
+<style>
+.h1 {
+  font-size: 4.8vw;
+}
+</style>
+
 ---
-layout: statement
+layout: center
 ---
 
-<h1 class="h1">自動テストを導入しました👏</h1>
+<h1 class="h1">自動テストの導入👏</h1>
 
 
-
+<style>
+.h1 {
+  font-size: 5.6vw;
+  font-weight: bold
+}
+</style>
 <!-- <img
   src="/images/top.png"
   alt="コーポレートサイトのメインビジュアル"
 /> -->
-
-
 ---
 
 # Navigation
