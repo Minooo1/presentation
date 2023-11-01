@@ -32,18 +32,25 @@ layout: two-cols-header
 
 ::left::
 <v-click>
-  <h1 class="h1">hello</h1>
+  <h1 class="h1">hello World</h1>
 </v-click>
 
 
 ::right::
 <div v-click>
-  //
+  <h1 class="h1">hello World</h1>
 </div>
 
 <style>
 .h1 {
   font-size: 5vw;
+}
+.slidev-vclick-target {
+  transition: all 500ms ease;
+}
+
+.slidev-vclick-hidden {
+  transform: scale(0);
 }
 </style>
 
@@ -106,72 +113,39 @@ layout: center
   alt="コーポレートサイトのメインビジュアル"
 /> -->
 ---
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
-
-## Keyboard Shortcuts
-
-|                                                    |                             |
-| -------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                | next animation or slide     |
-| <kbd>left</kbd> / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                      | previous slide              |
-| <kbd>down</kbd>                                    | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+layout: center
 ---
 
+# テストとは
+
+<v-clicks>
+
+- 事前にバグや不具合等を検知できるようにするもの
+- 品質を保証するためのもの
+- items3
+
+</v-clicks>
+
+
+---
+layout: center
 ---
 
-# Code
+# 取り組みの目的
+<v-clicks>
 
-Use code snippets and get the highlighting directly![^1]
+- そもそも開発において、テストは必要。
+- 現状網羅的にテストを書ける人、知見がある人がいない。
+- このママだと今後の開発に向けて不安があった
 
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number;
-  firstName: string;
-  lastName: string;
-  role: string;
-}
+</v-clicks>
 
-function updateUser(id: number, update: User) {
-  const user = getUser(id);
-  const newUser = { ...user, ...update };
-  saveUser(id, newUser);
-}
-```
 
-<arrow v-click="[3, 4]" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
+---
+layout: statement
+---
 
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
+# 導入したテストの紹介
 
 ---
 
