@@ -54,12 +54,11 @@ layout: two-cols-header
 }
 </style>
 
-
 ---
 layout: two-cols-header
 ---
 
-<h1 class="h1 text-center">大幅な作業時間の短縮</h1>
+<h1 class="h1 text-center">自動化による工数削減</h1>
 
 ::left::
 <v-click>
