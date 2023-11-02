@@ -156,7 +156,15 @@ layout: statement
 
 ---
 
-# UIテスト
+# 見た目の差分を検知するテスト
+
+
+---
+layout: statement
+---
+
+# 自動化を実現する
+
 
 
 ---
@@ -170,12 +178,6 @@ layout: statement
 - items4
 
 </v-clicks>
-
-
----
-
-# 完全自動化する
-
 ---
 
 # 挑戦してどうなった
