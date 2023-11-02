@@ -120,7 +120,7 @@ layout: center
 <v-clicks>
 
 - 事前にバグや不具合等を検知できるようにするもの
-- 品質を保証するためのもの
+- コード/成果物の品質を保証するためのもの
 - items3
 
 </v-clicks>
@@ -130,7 +130,7 @@ layout: center
 layout: center
 ---
 
-# 取り組みの目的
+# テストを導入した目的
 <v-clicks>
 
 - そもそも開発において、テストは必要。
@@ -148,76 +148,38 @@ layout: statement
 
 ---
 
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
+# 構文タイポテスト
 
 ---
-class: px-20
+
+# お問い合わせフォームのテスト
+
 ---
 
-# Themes
+# UIテスト
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
 
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-```yaml
 ---
-theme: default
+
+# 苦労したこと
+<v-clicks>
+
+- items1
+- items2
+- items3
+- items4
+
+</v-clicks>
+
+
 ---
-```
 
-```yaml
+# 完全自動化する
+
 ---
-theme: seriph
----
-```
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
+# 挑戦してどうなった
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
 
 ---
 layout: end
