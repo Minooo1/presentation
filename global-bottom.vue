@@ -1,3 +1,3 @@
 <template>
-  <Progressbar></Progressbar>
+  <Progressbar :current="$slidev.nav.currentPage" :total="$slidev.nav.total" />
 </template>
