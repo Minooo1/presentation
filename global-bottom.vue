@@ -1,0 +1,3 @@
+<template>
+  <Progressbar></Progressbar>
+</template>
