@@ -1,14 +1,13 @@
 <template>
-  <footer class="absolute bottom-5 right-0 left-0 flex justify-center">
+  <footer class="absolute bottom-2 right-0 left-0 flex justify-center">
     <div class="w-100 relative h-1 bg-white rounded-full overflow-hidden">
-      <span class="absolute h-full bg-black	transition-all duration-300" :style="style"></span>
+      <span class="absolute h-full bg-black	transition-all duration-400" :style="style"></span>
     </div>
   </footer>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
-
 
 const props = defineProps<{
   current: number
