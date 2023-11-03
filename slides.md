@@ -12,9 +12,46 @@ drawings:
   persist: false
 mdc: true
 transition: fade
+canvasWidth: 1200
 ---
 
 <h1>Adventure Cup</h1>
+
+---
+
+<div class="slidev-layout two-columns w-full h-full grid grid-cols-2 items-center">
+  <div>
+    <img src="/images/intro.png" class="rounded-full w-80 h-80 "/>
+  </div>
+
+  <div class='flex flex-col justify-between'>
+    <div class="mb-4">
+      <p class='text-5xl font-bold pb-2'>美野佑太</p>
+      <p class='mb-2'>Yuta Mino</p>
+      <p class='py-2'>
+        フロントエンドフレームワークを使った運用・改修や、開発環境周りの整備・構築等を行なっています。
+      </p>
+    </div>
+    <ul>
+      <li class='mb-1.5'>
+        <carbon-login />
+        <span class='ml-2'>2023年5月1日入社</span>
+      </li>
+      <li class='mb-1.5'>
+        <carbon-building />
+        <span class='ml-2'>福岡オフィス</span>
+      </li>
+      <li class='mb-1.5'>
+        <carbon-events-alt />
+        <span class='ml-2'>開発部 開発課 WEBチーム</span>
+      </li>
+      <li class='mb-1.5'>
+        <carbon-laptop />
+        <span class='ml-2'>フロントエンドエンジニア</span>
+      </li>
+    </ul>
+  </div>
+</div>
 
 ---
 layout: two-cols-header
@@ -84,7 +121,7 @@ layout: center
 layout: center
 ---
 
-<h1 class="text-center">テストとは</h1>
+<h2 class="text-center font-bold">テストとは</h2>
 
 <v-clicks>
 
@@ -99,7 +136,8 @@ layout: center
 layout: center
 ---
 
-# テストを導入した目的
+<h2 class="text-center font-bold">テストを導入した目的</h2>
+
 <v-clicks>
 
 - そもそも開発において、テストは必要。
@@ -117,16 +155,15 @@ layout: statement
 
 ---
 
-# 構文タイポテスト
+<h2 class="text-center font-bold">構文タイポ</h2>
 
 ---
 
-# お問い合わせフォームのテスト
+<h2 class="text-center font-bold">お問い合わせフォーム</h2>
 
 ---
 
-# 見た目の差分を検知するテスト
-
+<h2 class="text-center font-bold">UIテスト</h2>
 
 ---
 layout: statement

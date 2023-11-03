@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="end-title">ご静聴ありがとうございました</h1>
+    <h1 class="end-title">END</h1>
   </div>
 </template>
 
