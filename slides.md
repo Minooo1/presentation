@@ -12,7 +12,7 @@ drawings:
   persist: false
 mdc: true
 transition: fade
-canvasWidth: 1200
+canvasWidth: 1400
 ---
 
 <h1>Adventure Cup</h1>
@@ -20,8 +20,8 @@ canvasWidth: 1200
 ---
 
 <div class="slidev-layout two-columns w-full h-full grid grid-cols-2 items-center">
-  <div>
-    <img src="/images/intro.png" class="rounded-full w-80 h-80 "/>
+  <div class="pl-40">
+    <img src="/images/intro.png" class="rounded-full w-80 h-80" alt="" />
   </div>
 
   <div class='flex flex-col justify-between'>
@@ -29,7 +29,7 @@ canvasWidth: 1200
       <p class='text-5xl font-bold pb-2'>美野佑太</p>
       <p class='mb-2'>Yuta Mino</p>
       <p class='py-2'>
-        フロントエンドフレームワークを使った運用・改修や、開発環境周りの整備・構築等を行なっています。
+        フロントエンドフレームワークを使った運用・改修、 <br /> 開発環境周りの整備・構築等を行なっています。
       </p>
     </div>
     <ul>
@@ -52,6 +52,12 @@ canvasWidth: 1200
     </ul>
   </div>
 </div>
+
+---
+layout: center
+---
+
+<h1>Start</h1>
 
 ---
 layout: two-cols-header
