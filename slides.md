@@ -14,108 +14,77 @@ mdc: true
 transition: fade
 ---
 
-
-<h1 class="h1">Adventure Cup</h1>
-
-<style>
-.h1 {
-  font-size: 5vw;
-}
-</style>
-
+<h1>Adventure Cup</h1>
 
 ---
 layout: two-cols-header
 ---
 
-<h1 class="h1 text-center">0から仕組みを導入</h1>
+<h2 class="text-center">0から仕組みを導入</h2>
 
 ::left::
 <v-click>
-  <h1 class="h1">hello World</h1>
-</v-click>
-
-
-::right::
-<div v-click>
-  <h1 class="h1">hello World</h1>
-</div>
-
-<style>
-.h1 {
-  font-size: 5vw;
-}
-.slidev-vclick-target {
-  transition: all 500ms ease;
-}
-
-.slidev-vclick-hidden {
-  transform: scale(0);
-}
-</style>
-
----
-layout: two-cols-header
----
-
-<h1 class="h1 text-center">自動化による工数削減</h1>
-
-::left::
-<v-click>
-  <div class="text-right">
-    <h3 class="h3">XX分 <span class="ml-30">==></span> </h3>
+  <div class="text-center">
+    <h3>hello World</h3>
   </div>
 </v-click>
 
+
 ::right::
 <div v-click class="text-center">
-  <h2 class="h1 ">X分</h2>
+  <h3>hello World</h3>
 </div>
 
 <style>
-.h1 {
-  font-size: 4.8vw;
-}
+  .slidev-vclick-target {
+    transition: all 500ms ease;
+  }
 
-.h3 {
-  font-size: 3.6vw;
-}
+  .slidev-vclick-hidden {
+    transform: scale(0);
+  }
 </style>
+
+---
+
+<h2 class="text-center">自動化による工数削減</h2>
+
+<div class="flex mt-50 text-center">
+  <div class="flex-grow">
+    <h3>1000分</h3>
+  </div>
+
+  <div class="flex-grow" v-click>
+    <h2> => </h2>
+  </div>
+
+  <div class="flex-grow" v-click>
+    <h2>7分</h2>
+  </div>
+</div>
 
 ---
 layout: center
 ---
 
-<h1 class="h1">挑戦したこと</h1>
-
-<style>
-.h1 {
-  font-size: 4.8vw;
-}
-</style>
+<h1>挑戦したこと</h1>
 
 ---
 layout: center
 ---
 
-<h1 class="h1">自動テストの導入👏</h1>
+<h1>自動テストの導入👏</h1>
 
-
-<style>
-.h1 {
-  font-size: 5.6vw;
-  font-weight: bold
-}
-</style>
 <!-- <img
   src="/images/top.png"
   alt="コーポレートサイトのメインビジュアル"
 /> -->
+
 ---
 layout: center
 ---
 
-# テストとは
+<h1 class="text-center">テストとは</h1>
 
 <v-clicks>
 
