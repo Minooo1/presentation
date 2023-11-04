@@ -1,15 +1,19 @@
 #app {
-  border:#ffffff thick double;
+  border: #ffffff thick double;
   border-radius: 10px;
 }
 
-h1, h2, h3, li, p {
+h1,
+h2,
+h3,
+li,
+p {
   color: #ffffff;
 }
 
 h1 {
   font-size: 5.6vw !important;
-  font-weight: bold
+  font-weight: bold;
 }
 
 h2 {

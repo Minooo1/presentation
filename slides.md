@@ -12,7 +12,7 @@ drawings:
   persist: false
 mdc: true
 transition: fade
-canvasWidth: 1200
+canvasWidth: 1300
 ---
 
 <h1>Adventure Cup</h1>
@@ -20,7 +20,7 @@ canvasWidth: 1200
 ---
 
 <div class="slidev-layout two-columns w-full h-full grid grid-cols-2 items-center">
-  <div class="pl-40">
+  <div class="pl-30">
     <img src="/images/intro.png" class="rounded-full w-80 h-80" alt="" />
   </div>
 
