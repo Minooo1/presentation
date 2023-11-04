@@ -12,7 +12,7 @@ drawings:
   persist: false
 mdc: true
 transition: fade
-canvasWidth: 1400
+canvasWidth: 1200
 ---
 
 <h1>Adventure Cup</h1>
@@ -75,7 +75,7 @@ layout: center
 layout: center
 ---
 
-<img src="/images/composition.png" alt="" />
+<img src="/images/composition-sample.png" alt="" />
 
 
 ---
