@@ -33,19 +33,19 @@ canvasWidth: 1300
       </p>
     </div>
     <ul>
-      <li class="mb-1.5">
+      <li class="mb-1.5 list-none	">
         <carbon-login />
         <span class="ml-2">2023年5月1日入社</span>
       </li>
-      <li class="mb-1.5">
+      <li class="mb-1.5 list-none	">
         <carbon-building />
         <span class="ml-2">福岡オフィス</span>
       </li>
-      <li class="mb-1.5">
+      <li class="mb-1.5 list-none	">
         <carbon-events-alt />
         <span class="ml-2">開発部 開発課 WEBチーム</span>
       </li>
-      <li class="mb-1.5">
+      <li class="mb-1.5 list-none	">
         <carbon-laptop />
         <span class="ml-2">フロントエンドエンジニア</span>
       </li>
@@ -69,13 +69,15 @@ layout: center
 layout: center
 ---
 
-<h1>自動テストの導入👏</h1>
+<h1>自動テストシステムの導入</h1>
 
 ---
 layout: center
 ---
 
-<img src="/images/composition-sample.png" alt="" />
+<h2 class="mb-15 text-center">全体の構成図</h2>
+
+<img src="/images/composition-sample.png" alt="今回導入したシステムの構成画像" />
 
 
 ---
@@ -84,13 +86,12 @@ layout: center
 
 <h2 class="text-center font-bold">テストとは</h2>
 
-<v-clicks class="mt-10">
 
-- 事前にバグや不具合等を検知できるようにするもの
-- コード/成果物の品質を保証するためのもの
-- items3
-
-</v-clicks>
+<ul class="mt-10">
+  <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知できるようにするもの</li>
+  <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知できるようにするもの</li>
+  <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知できるようにするもの</li>
+</ul>
 
 ---
 layout: center
@@ -98,14 +99,11 @@ layout: center
 
 <h2 class="text-center font-bold">テストを導入した目的</h2>
 
-<v-clicks>
-
-- そもそも開発において、テストは必要。
-- 現状網羅的にテストを書ける人、知見がある人がいない。
-- このママだと今後の開発に向けて不安があった
-
-</v-clicks>
-
+<ul class="mt-10">
+  <li v-click class="pb-4 text-2xl">テスト</li>
+  <li v-click class="pb-4 text-2xl">チーム内でテストに関する知見を持っている人がいなかった。</li>
+  <li v-click class="pb-4 text-2xl">今後新規で開発する際の参考にできるため。</li>
+</ul>
 
 ---
 layout: statement
@@ -115,7 +113,20 @@ layout: statement
 
 ---
 
-<h2 class="text-center font-bold">構文タイポ</h2>
+<h2 class="text-center font-bold mb-10">コードチェック</h2>
+
+```ts {1,10|2|4|6-9}
+export const usePolitePopup = () => {
+  const visible = ref(false);
+
+  const trigger = () => {}
+
+  return {
+    visible,
+    trigger,
+  };
+};
+```
 
 ---
 
@@ -131,7 +142,24 @@ layout: statement
 
 # 自動化を実現する
 
+---
+layout: center
+---
 
+<h2 class="text-center">自動化による工数削減</h2>
+
+<div class='flex mt-15 justify-center'>
+  <div class='text-center flex items-center'>
+    <p class="text-4xl font-bold">1000分</p>
+  </div>
+
+  <div class='slidev-vclick-target flex ml-10' v-click>
+    <mdi-arrow-right-bold class='h-30 w-30 text-sky-300' />
+    <div class='flex flex-col justify-center ml-10'>
+      <p class="text-8xl font-bold">8分</p>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -145,24 +173,16 @@ layout: statement
 
 </v-clicks>
 ---
+layout: statement
+---
 
 # 挑戦してどうなった
 
-<h2 class="text-center">自動化による工数削減</h2>
+---
+layout: center
+---
 
-<div class="flex mt-50 text-center">
-  <div class="flex-grow">
-    <h3>1000分</h3>
-  </div>
-
-  <div class="flex-grow" v-click>
-    <h2> => </h2>
-  </div>
-
-  <div class="flex-grow" v-click>
-    <h2>7分</h2>
-  </div>
-</div>
+振り返り
 
 
 ---
