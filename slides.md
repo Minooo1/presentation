@@ -24,30 +24,30 @@ canvasWidth: 1300
     <img src="/images/intro.png" class="rounded-full w-80 h-80" alt="" />
   </div>
 
-  <div class='flex flex-col justify-between'>
+  <div class="flex flex-col justify-between">
     <div class="mb-4">
-      <p class='text-5xl font-bold pb-2'>美野佑太</p>
-      <p class='mb-2'>Yuta Mino</p>
-      <p class='py-2'>
+      <p class="text-5xl font-bold pb-2">美野佑太</p>
+      <p class="mb-2">Yuta Mino</p>
+      <p class="py-2">
         フロントエンドフレームワークを使った運用・改修、 <br /> 開発環境周りの整備・構築等を行なっています。
       </p>
     </div>
     <ul>
-      <li class='mb-1.5'>
+      <li class="mb-1.5">
         <carbon-login />
-        <span class='ml-2'>2023年5月1日入社</span>
+        <span class="ml-2">2023年5月1日入社</span>
       </li>
-      <li class='mb-1.5'>
+      <li class="mb-1.5">
         <carbon-building />
-        <span class='ml-2'>福岡オフィス</span>
+        <span class="ml-2">福岡オフィス</span>
       </li>
-      <li class='mb-1.5'>
+      <li class="mb-1.5">
         <carbon-events-alt />
-        <span class='ml-2'>開発部 開発課 WEBチーム</span>
+        <span class="ml-2">開発部 開発課 WEBチーム</span>
       </li>
-      <li class='mb-1.5'>
+      <li class="mb-1.5">
         <carbon-laptop />
-        <span class='ml-2'>フロントエンドエンジニア</span>
+        <span class="ml-2">フロントエンドエンジニア</span>
       </li>
     </ul>
   </div>
