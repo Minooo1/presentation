@@ -60,53 +60,6 @@ layout: center
 <h1>Start</h1>
 
 ---
-layout: two-cols-header
----
-
-<h2 class="text-center">0から仕組みを導入</h2>
-
-::left::
-<v-click>
-  <div class="text-center">
-    <h3>hello World</h3>
-  </div>
-</v-click>
-
-
-::right::
-<div v-click class="text-center">
-  <h3>hello World</h3>
-</div>
-
-<style>
-  .slidev-vclick-target {
-    transition: all 500ms ease;
-  }
-
-  .slidev-vclick-hidden {
-    transform: scale(0);
-  }
-</style>
-
----
-
-<h2 class="text-center">自動化による工数削減</h2>
-
-<div class="flex mt-50 text-center">
-  <div class="flex-grow">
-    <h3>1000分</h3>
-  </div>
-
-  <div class="flex-grow" v-click>
-    <h2> => </h2>
-  </div>
-
-  <div class="flex-grow" v-click>
-    <h2>7分</h2>
-  </div>
-</div>
-
----
 layout: center
 ---
 
@@ -118,10 +71,12 @@ layout: center
 
 <h1>自動テストの導入👏</h1>
 
-<!-- <img
-  src="/images/top.png"
-  alt="コーポレートサイトのメインビジュアル"
-/> -->
+---
+layout: center
+---
+
+<img src="/images/composition.png" alt="" />
+
 
 ---
 layout: center
@@ -129,14 +84,13 @@ layout: center
 
 <h2 class="text-center font-bold">テストとは</h2>
 
-<v-clicks>
+<v-clicks class="mt-10">
 
 - 事前にバグや不具合等を検知できるようにするもの
 - コード/成果物の品質を保証するためのもの
 - items3
 
 </v-clicks>
-
 
 ---
 layout: center
@@ -193,6 +147,22 @@ layout: statement
 ---
 
 # 挑戦してどうなった
+
+<h2 class="text-center">自動化による工数削減</h2>
+
+<div class="flex mt-50 text-center">
+  <div class="flex-grow">
+    <h3>1000分</h3>
+  </div>
+
+  <div class="flex-grow" v-click>
+    <h2> => </h2>
+  </div>
+
+  <div class="flex-grow" v-click>
+    <h2>7分</h2>
+  </div>
+</div>
 
 
 ---
