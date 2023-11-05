@@ -52,22 +52,9 @@ canvasWidth: 1300
 
 ---
 layout: center
-transition: my-transition
 ---
 
 <h1>Start</h1>
-
-<style>
-.my-transition-enter-active,
-.my-transition-leave-active {
-  transition: opacity 5s ease;
-}
-
-.my-transition-enter-from,
-.my-transition-leave-to {
-  opacity: 0;
-}
-</style>
 
 ---
 layout: center
@@ -116,7 +103,7 @@ layout: center
 <h1>自動テストの導入</h1>
 
 ---
-layout: none
+layout: center
 ---
 
 <h4 class="font-bold mb-5">全体構成</h4>
@@ -229,7 +216,7 @@ layout: center
 </style>
 
 ---
-layout: none
+layout: center
 ---
 
 <h4 class="font-bold mb-5">自動化</h4>
