@@ -52,9 +52,22 @@ canvasWidth: 1300
 
 ---
 layout: center
+transition: my-transition
 ---
 
 <h1>Start</h1>
+
+<style>
+.my-transition-enter-active,
+.my-transition-leave-active {
+  transition: opacity 5s ease;
+}
+
+.my-transition-enter-from,
+.my-transition-leave-to {
+  opacity: 0;
+}
+</style>
 
 ---
 layout: center
@@ -87,10 +100,6 @@ layout: center
 </div>
 
 <style>
-.active {
-  animation: 3s ease-in 1s infinite reverse both running slidein;
-}
-
 .slidev-vclick-target {
   transition: all 500ms ease;
 }
@@ -107,22 +116,20 @@ layout: center
 <h1>自動テストの導入</h1>
 
 ---
+layout: none
+---
+
+<h4 class="font-bold mb-5">全体構成</h4>
+
+<img src="/images/composition.png" class="block aspect-auto h-4/5" alt="今回導入したシステムの構成画像" />
+
+---
 layout: center
 ---
 
-<h3 class="mb-15">全体構成</h3>
+<h2 class="text-center font-bold">自動テストとは</h2>
 
-<img src="/images/composition-sample.png" alt="今回導入したシステムの構成画像" />
-
-
----
-layout: center
----
-
-<h2 class="text-center font-bold">テストとは</h2>
-
-
-<ul class="mt-10">
+<ul class="mt-20">
   <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知できるようにするもの</li>
   <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知できるようにするもの</li>
   <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知できるようにするもの</li>
@@ -132,11 +139,11 @@ layout: center
 layout: center
 ---
 
-<h2 class="text-center font-bold">テストを導入した目的</h2>
+<h2 class="text-center font-bold">導入目的</h2>
 
-<ul class="mt-10">
+<ul class="mt-20">
   <li v-click class="pb-4 text-2xl">テスト</li>
-  <li v-click class="pb-4 text-2xl">チーム内でテストに関する知見を持っている人がいなかった。</li>
+  <li v-click class="pb-4 text-2xl">チーム内でテストに関する知見が不足していた。</li>
   <li v-click class="pb-4 text-2xl">今後新規で開発する際の参考にできるため。</li>
 </ul>
 
@@ -175,50 +182,56 @@ export const usePolitePopup = () => {
 layout: statement
 ---
 
-# 自動化を実現する
-
----
-layout: center
----
-
-<div class='flex justify-center'>
-  <div class='text-center flex items-center'>
-    <p class="text-6xl font-bold">1000 <span class="text-3xl">分</span> </p>
-  </div>
-
-  <div class='slidev-vclick-target flex ml-10' v-click>
-    <mdi-arrow-right-bold class='h-30 w-30' />
-    <div class='flex flex-col justify-center ml-10'>
-      <p class="text-9xl font-bold">8<span class="text-5xl">分</span></p>
-    </div>
-  </div>
-</div>
+# 自動化の実現
 
 
 ---
 layout: center
 ---
 
-<h2 class="text-center">自動化による工数削減</h2>
-
-<div class='flex mt-25 justify-center'>
+<div class='flex justify-center mb-20' v-click-hide>
   <div class='text-center flex items-center'>
-    <p class="text-6xl font-bold">1000 <span class="text-3xl">分</span> </p>
+    <p class="text-7xl font-bold">0</p>
   </div>
 
-  <div class='slidev-vclick-target flex ml-10' v-click>
+  <div class='slidev-vclick-target flex ml-10'>
     <mdi-arrow-right-bold class='h-30 w-30' />
     <div class='flex flex-col justify-center ml-10'>
-      <p class="text-9xl font-bold">8<span class="text-5xl">分</span></p>
+      <p class="text-9xl font-bold text-red-300">1</p>
     </div>
   </div>
 </div>
 
+<div class='flex justify-center mb-20 mr-30' :class="{ active: $clicks === 1}">
+  <div class='text-center flex items-center'>
+    <p class="text-7xl font-bold">1000</p>
+  </div>
+
+  <div class='slidev-vclick-target flex ml-10'>
+    <mdi-arrow-right-bold class='h-30 w-30' />
+    <div class='flex flex-col justify-center ml-10'>
+      <p class="text-9xl font-bold text-red-300">8</p>
+    </div>
+  </div>
+</div>
+
+<style>
+.slidev-vclick-target {
+  transition: all 500ms ease;
+}
+
+.slidev-vclick-hidden {
+  display: none;
+}
+</style>
+
 ---
-layout: statement
+layout: center
 ---
 
-# 挑戦してどうなった
+<div>
+  <img src="/images/auto.png" alt="今回導入したシステムの構成で自動化をした部分を切り取った画像" />
+</div>
 
 ---
 layout: center

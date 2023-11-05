@@ -3,6 +3,11 @@
   border-radius: 10px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -22,6 +27,10 @@ h2 {
 
 h3 {
   font-size: 3.6vw !important;
+}
+
+h4 {
+  font-size: 2.4svw !important;
 }
 
 .slidev-layout li {
