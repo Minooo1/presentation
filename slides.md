@@ -21,7 +21,7 @@ canvasWidth: 1300
 
 <div class="slidev-layout two-columns w-full h-full grid grid-cols-2 items-center">
   <div class="pl-30">
-    <img src="/images/intro.png" class="rounded-full w-80 h-80" alt="" />
+    <img src="/images/intro.png" class="rounded-full w-80 h-80" alt="自己紹介用の画像" />
   </div>
 
   <div class="flex flex-col justify-between">
@@ -127,14 +127,18 @@ layout: none
 layout: center
 ---
 
-<h2 class="text-center font-bold">自動テストとは</h2>
+<h2 class="text-center font-bold">テストとは？？</h2>
 
 <ul class="mt-20">
-  <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知できるようにするもの</li>
-  <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知できるようにするもの</li>
-  <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知できるようにするもの</li>
+  <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知するもの</li>
+  <li v-click class="text-2xl">保守性を高めるもの</li>
 </ul>
 
+<div class="text-center my-10">
+  <mdi-arrow-down-bold v-click class="h-30 w-30" />
+</div>
+
+<h2 v-click class="text-center font-bold">開発の助けになる</h2>
 ---
 layout: center
 ---
@@ -142,9 +146,8 @@ layout: center
 <h2 class="text-center font-bold">導入目的</h2>
 
 <ul class="mt-20">
-  <li v-click class="pb-4 text-2xl">テスト</li>
-  <li v-click class="pb-4 text-2xl">チーム内でテストに関する知見が不足していた。</li>
-  <li v-click class="pb-4 text-2xl">今後新規で開発する際の参考にできるため。</li>
+  <li v-click class="pb-4 text-2xl">チーム内でテストに関する知見を増やす</li>
+  <li v-click class="pb-4 text-2xl">今後新規で開発する際の参考にできる</li>
 </ul>
 
 ---
@@ -226,12 +229,13 @@ layout: center
 </style>
 
 ---
-layout: center
+layout: none
 ---
 
-<div>
-  <img src="/images/auto.png" alt="今回導入したシステムの構成で自動化をした部分を切り取った画像" />
-</div>
+<h4 class="font-bold mb-5">自動化</h4>
+
+<img src="/images/composition-auto.png" class="block aspect-auto h-4/5" alt="今回導入したシステムの構成で自動化をした部分を切り取った画像" />
+
 
 ---
 layout: center

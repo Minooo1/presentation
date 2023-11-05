@@ -4,8 +4,7 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  letter-spacing: 0.15em;
 }
 
 h1,
@@ -31,6 +30,7 @@ h3 {
 
 h4 {
   font-size: 2.4svw !important;
+  color: #ffffff;
 }
 
 .slidev-layout li {
