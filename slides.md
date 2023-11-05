@@ -28,9 +28,6 @@ canvasWidth: 1300
     <div class="mb-4">
       <p class="text-5xl font-bold pb-2">美野佑太</p>
       <p class="mb-2">Yuta Mino</p>
-      <p class="py-2">
-        フロントエンドフレームワークを使った運用・改修、 <br /> 開発環境周りの整備・構築等を行なっています。
-      </p>
     </div>
     <ul>
       <li class="mb-1.5 list-none	">
@@ -47,7 +44,7 @@ canvasWidth: 1300
       </li>
       <li class="mb-1.5 list-none	">
         <carbon-laptop />
-        <span class="ml-2">フロントエンドエンジニア</span>
+        <span class="ml-2">エンジニア</span>
       </li>
     </ul>
   </div>
@@ -63,19 +60,57 @@ layout: center
 layout: center
 ---
 
-<h1>挑戦したこと</h1>
+<div class='flex justify-center mb-20' :class="{ active: $clicks === 1}">
+  <div class='text-center flex items-center'>
+    <p class="text-7xl font-bold">0</p>
+  </div>
+
+  <div class='slidev-vclick-target flex ml-10'>
+    <mdi-arrow-right-bold class='h-30 w-30' />
+    <div class='flex flex-col justify-center ml-10'>
+      <p class="text-9xl font-bold text-red-300">1</p>
+    </div>
+  </div>
+</div>
+
+<div class='flex justify-center mb-20 mr-30' v-click-hide>
+  <div class='text-center flex items-center'>
+    <p class="text-7xl font-bold">1000</p>
+  </div>
+
+  <div class='slidev-vclick-target flex ml-10'>
+    <mdi-arrow-right-bold class='h-30 w-30' />
+    <div class='flex flex-col justify-center ml-10'>
+      <p class="text-9xl font-bold text-red-300">8</p>
+    </div>
+  </div>
+</div>
+
+<style>
+.active {
+  animation: 3s ease-in 1s infinite reverse both running slidein;
+}
+
+.slidev-vclick-target {
+  transition: all 500ms ease;
+}
+
+.slidev-vclick-hidden {
+  display: none;
+}
+</style>
 
 ---
 layout: center
 ---
 
-<h1>自動テストシステムの導入</h1>
+<h1>自動テストの導入</h1>
 
 ---
 layout: center
 ---
 
-<h2 class="mb-15 text-center">全体の構成図</h2>
+<h3 class="mb-15">全体構成</h3>
 
 <img src="/images/composition-sample.png" alt="今回導入したシステムの構成画像" />
 
@@ -146,32 +181,39 @@ layout: statement
 layout: center
 ---
 
-<h2 class="text-center">自動化による工数削減</h2>
-
-<div class='flex mt-15 justify-center'>
+<div class='flex justify-center'>
   <div class='text-center flex items-center'>
-    <p class="text-4xl font-bold">1000分</p>
+    <p class="text-6xl font-bold">1000 <span class="text-3xl">分</span> </p>
   </div>
 
   <div class='slidev-vclick-target flex ml-10' v-click>
-    <mdi-arrow-right-bold class='h-30 w-30 text-sky-300' />
+    <mdi-arrow-right-bold class='h-30 w-30' />
     <div class='flex flex-col justify-center ml-10'>
-      <p class="text-8xl font-bold">8分</p>
+      <p class="text-9xl font-bold">8<span class="text-5xl">分</span></p>
     </div>
   </div>
 </div>
 
+
+---
+layout: center
 ---
 
-# 苦労したこと
-<v-clicks>
+<h2 class="text-center">自動化による工数削減</h2>
 
-- items1
-- items2
-- items3
-- items4
+<div class='flex mt-25 justify-center'>
+  <div class='text-center flex items-center'>
+    <p class="text-6xl font-bold">1000 <span class="text-3xl">分</span> </p>
+  </div>
 
-</v-clicks>
+  <div class='slidev-vclick-target flex ml-10' v-click>
+    <mdi-arrow-right-bold class='h-30 w-30' />
+    <div class='flex flex-col justify-center ml-10'>
+      <p class="text-9xl font-bold">8<span class="text-5xl">分</span></p>
+    </div>
+  </div>
+</div>
+
 ---
 layout: statement
 ---
