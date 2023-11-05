@@ -73,27 +73,27 @@ transition: my-transition
 layout: center
 ---
 
-<div class='flex justify-center mb-20' :class="{ active: $clicks === 1}">
-  <div class='text-center flex items-center'>
+<div class="flex justify-center mb-20" :class="{ active: $clicks === 1 }">
+  <div class="text-center flex items-center">
     <p class="text-7xl font-bold">0</p>
   </div>
 
-  <div class='slidev-vclick-target flex ml-10'>
-    <mdi-arrow-right-bold class='h-30 w-30' />
-    <div class='flex flex-col justify-center ml-10'>
+  <div class="slidev-vclick-target flex ml-10">
+    <mdi-arrow-right-bold class="h-30 w-30" />
+    <div class="flex flex-col justify-center ml-10">
       <p class="text-9xl font-bold text-red-300">1</p>
     </div>
   </div>
 </div>
 
-<div class='flex justify-center mb-20 mr-30' v-click-hide>
-  <div class='text-center flex items-center'>
+<div class="flex justify-center mb-20 mr-30" v-click-hide>
+  <div class="text-center flex items-center">
     <p class="text-7xl font-bold">1000</p>
   </div>
 
-  <div class='slidev-vclick-target flex ml-10'>
-    <mdi-arrow-right-bold class='h-30 w-30' />
-    <div class='flex flex-col justify-center ml-10'>
+  <div class="slidev-vclick-target flex ml-10">
+    <mdi-arrow-right-bold class="h-30 w-30" />
+    <div class="flex flex-col justify-center ml-10">
       <p class="text-9xl font-bold text-red-300">8</p>
     </div>
   </div>
@@ -189,27 +189,27 @@ layout: statement
 layout: center
 ---
 
-<div class='flex justify-center mb-20' v-click-hide>
-  <div class='text-center flex items-center'>
+<div class="flex justify-center mb-20" v-click-hide>
+  <div class="text-center flex items-center">
     <p class="text-7xl font-bold">0</p>
   </div>
 
-  <div class='slidev-vclick-target flex ml-10'>
-    <mdi-arrow-right-bold class='h-30 w-30' />
-    <div class='flex flex-col justify-center ml-10'>
+  <div class="slidev-vclick-target flex ml-10">
+    <mdi-arrow-right-bold class="h-30 w-30" />
+    <div class="flex flex-col justify-center ml-10">
       <p class="text-9xl font-bold text-red-300">1</p>
     </div>
   </div>
 </div>
 
-<div class='flex justify-center mb-20 mr-30' :class="{ active: $clicks === 1}">
-  <div class='text-center flex items-center'>
+<div class="flex justify-center mb-20 mr-30" :class="{ active: $clicks === 1 }">
+  <div class="text-center flex items-center">
     <p class="text-7xl font-bold">1000</p>
   </div>
 
-  <div class='slidev-vclick-target flex ml-10'>
-    <mdi-arrow-right-bold class='h-30 w-30' />
-    <div class='flex flex-col justify-center ml-10'>
+  <div class="slidev-vclick-target flex ml-10">
+    <mdi-arrow-right-bold class="h-30 w-30" />
+    <div class="flex flex-col justify-center ml-10">
       <p class="text-9xl font-bold text-red-300">8</p>
     </div>
   </div>
