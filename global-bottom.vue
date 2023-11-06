@@ -1,4 +1,7 @@
 <template>
+  <footer class="absolute bottom-0 right-5">
+    <p class="font-bold" >Leverage</p>
+  </footer>
   <!-- @vue-ignore -->
   <!-- <Progressbar
     v-if="
