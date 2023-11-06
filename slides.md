@@ -133,8 +133,9 @@ layout: center
 <h2 class="text-center font-bold">導入目的</h2>
 
 <ul class="mt-20">
+  <li v-click class="pb-4 text-2xl">安全にリファクタリングができるようにする</li>
   <li v-click class="pb-4 text-2xl">チーム内でテストに関する知見を増やす</li>
-  <li v-click class="pb-4 text-2xl">今後新規で開発する際の参考にできる</li>
+  <li v-click class="pb-4 text-2xl">今後新規で開発する際の参考にする</li>
 </ul>
 
 ---
@@ -221,15 +222,15 @@ layout: center
 
 <h4 class="font-bold mb-5">自動化</h4>
 
-<img src="/images/composition-auto.png" class="block aspect-auto h-4/5" alt="今回導入したシステムの構成で自動化をした部分を切り取った画像" />
+<img v-click-hide src="/images/auto-composition.png" class="block aspect-auto h-4/5" alt="今回導入したシステムの構成で自動化をした部分を切り取った画像" />
 
+<img v-if="$clicks === 1" src="/images/auto.png" class="block aspect-auto h-4/5" alt="開発者が自動化をした部分を切り取った画像" />
 
----
-layout: center
----
-
-振り返り
-
+<style>
+.slidev-vclick-hidden {
+  display: none;
+}
+</style>
 
 ---
 layout: end
