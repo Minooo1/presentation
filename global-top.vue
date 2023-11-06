@@ -1,5 +1,5 @@
 <template>
-  <footer class="absolute top-0 left-5">
+  <footer class="absolute top-3 left-3">
     <Titles v-if="hasTitle" :no="//@ts-ignore
     $slidev.nav.currentPage" class="font-bold border-solid border-b-4 border-b-[#56ffff] pb-2" />
   </footer>
