@@ -211,7 +211,7 @@ layout: center
   </div>
 </div>
 
-<div class="flex justify-center mb-20 mr-30" :class="{ active: $clicks === 1 }" v-click>
+<div class="flex justify-center mb-20 mr-30">
   <div class="text-center flex items-center">
     <p class="text-7xl font-bold">1000<span v-if="$clicks === 2" class="text-2xl">分</span></p>
   </div>
@@ -223,6 +223,8 @@ layout: center
     </div>
   </div>
 </div>
+
+<div v-click />
 
 <style>
 .slidev-vclick-target {
