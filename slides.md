@@ -222,15 +222,15 @@ layout: center
 
 <h4 class="font-bold mb-5">自動化</h4>
 
-<img v-click-hide src="/images/auto-composition.png" class="block aspect-auto h-4/5" alt="今回導入したシステムの構成で自動化をした部分を切り取った画像" />
+<img src="/images/auto-composition.png" class="block aspect-auto h-4/5" alt="今回導入したシステムの構成で自動化をした部分を切り取った画像" />
 
-<img v-if="$clicks === 1" src="/images/auto.png" class="block aspect-auto h-4/5" alt="開発者が自動化をした部分を切り取った画像" />
+---
+layout: center
+---
 
-<style>
-.slidev-vclick-hidden {
-  display: none;
-}
-</style>
+<h4 class="font-bold mb-5">自動化</h4>
+
+<img src="/images/auto.png" class="block aspect-auto h-4/5" alt="開発者が手動で行う箇所を切り取った画像" />
 
 ---
 layout: end
