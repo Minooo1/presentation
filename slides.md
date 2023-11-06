@@ -211,15 +211,15 @@ layout: center
   </div>
 </div>
 
-<div class="flex justify-center mb-20 mr-30" :class="{ active: $clicks === 1 }">
+<div class="flex justify-center mb-20 mr-30" :class="{ active: $clicks === 1 }" v-click>
   <div class="text-center flex items-center">
-    <p class="text-7xl font-bold">1000</p>
+    <p class="text-7xl font-bold">1000<span v-if="$clicks === 2" class="text-2xl">分</span></p>
   </div>
 
   <div class="slidev-vclick-target flex ml-10">
     <mdi-arrow-right-bold class="h-30 w-30" />
     <div class="flex flex-col justify-center ml-10">
-      <p class="text-9xl font-bold strong">8</p>
+      <p class="text-9xl font-bold strong">8<span v-if="$clicks === 2" class="text-2xl">分</span></p>
     </div>
   </div>
 </div>
