@@ -60,7 +60,7 @@ canvasWidth: 1300
 layout: center
 ---
 
-<h1>Start</h1>
+<h1 class="strong">Start</h1>
 
 ---
 layout: center
@@ -110,6 +110,7 @@ layout: center
 
 ---
 layout: center
+title: 自動テストの導入
 ---
 
 <h4 class="font-bold mb-5">全体構成</h4>
@@ -118,6 +119,7 @@ layout: center
 
 ---
 layout: center
+title: 自動テストの導入
 ---
 
 <h2 class="text-center font-bold">テストとは？</h2>
@@ -131,9 +133,10 @@ layout: center
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold">開発の助けになる</h2>
+<h2 v-click class="text-center font-bold strong">開発の助けになる</h2>
 ---
 layout: center
+title: 自動テストの導入
 ---
 
 <h2 class="text-center font-bold">導入目的</h2>
@@ -150,6 +153,8 @@ layout: statement
 
 # 導入したテストの紹介
 
+---
+title: テストの紹介
 ---
 
 <h2 class="text-center font-bold mb-10">コードチェック</h2>
@@ -168,9 +173,13 @@ export const usePolitePopup = () => {
 ```
 
 ---
+title: テストの紹介
+---
 
 <h2 class="text-center font-bold">お問い合わせフォーム</h2>
 
+---
+title: テストの紹介
 ---
 
 <h2 class="text-center font-bold">UIテスト</h2>
@@ -225,6 +234,7 @@ layout: center
 ---
 layout: center
 transition: fade-in
+title: テストの自動化
 ---
 
 <h4 class="font-bold mb-5">自動化</h4>
@@ -233,6 +243,7 @@ transition: fade-in
 
 ---
 layout: center
+title: テストの自動化
 ---
 
 <h4 class="font-bold mb-5">自動化</h4>

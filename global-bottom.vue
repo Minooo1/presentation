@@ -11,6 +11,8 @@
       //@ts-ignore
       $slidev.nav.currentPage
     "
-    :total="$slidev.nav.total"
+    :total="
+      //@ts-ignore
+      $slidev.nav.total"
   />
 </template>
