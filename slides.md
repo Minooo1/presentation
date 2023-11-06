@@ -18,6 +18,8 @@ canvasWidth: 1300
 <h1 class="strong">Adventure Cup</h1>
 
 ---
+title: 自己紹介
+---
 
 <div class="slidev-layout two-columns w-full h-full grid grid-cols-2 items-center">
   <div class="pl-30">
@@ -115,7 +117,7 @@ title: 自動テストの導入
 
 <h4 class="font-bold mb-5">全体構成</h4>
 
-<img src="/images/composition.png" class="block aspect-auto h-4/5" alt="今回導入したシステムの構成画像" />
+<img src="/images/composition.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
 
 ---
 layout: center
@@ -124,12 +126,13 @@ title: 自動テストの導入
 
 <h2 class="text-center font-bold">テストとは？</h2>
 
-<ul class="mt-20">
-  <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知するもの</li>
+<ul class="mt-10">
+  <li v-click class="pb-4 text-2xl">リリース前にバグや不具合等を検知するもの</li>
+  <li v-click class="pb-4 text-2xl">コードの品質を担保するもの</li>
   <li v-click class="text-2xl">保守性を高めるもの</li>
 </ul>
 
-<div class="text-center my-10">
+<div class="text-center my-5">
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
@@ -142,7 +145,7 @@ title: 自動テストの導入
 <h2 class="text-center font-bold">導入目的</h2>
 
 <ul class="mt-20">
-  <li v-click class="pb-4 text-2xl">安全にリファクタリングができるようにする</li>
+  <li v-click class="pb-4 text-2xl">安全にサイトを改修できるようにする</li>
   <li v-click class="pb-4 text-2xl">チーム内でテストに関する知見を増やす</li>
   <li v-click class="pb-4 text-2xl">今後新規で開発する際の参考にする</li>
 </ul>

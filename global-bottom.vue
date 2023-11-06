@@ -1,6 +1,6 @@
 <template>
   <!-- @vue-ignore -->
-  <Progressbar
+  <!-- <Progressbar
     v-if="
       $slidev.nav.currentPage !== 1 &&
       $slidev.nav.currentPage !== 2 &&
@@ -14,5 +14,5 @@
     :total="
       //@ts-ignore
       $slidev.nav.total"
-  />
+  /> -->
 </template>
