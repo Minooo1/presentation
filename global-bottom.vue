@@ -1,5 +1,5 @@
 <template>
-  <footer class="absolute bottom-3 right-3">
+  <footer class="absolute bottom-0 right-3">
     <p class="font-bold" >Leverage</p>
   </footer>
   <!-- @vue-ignore -->
