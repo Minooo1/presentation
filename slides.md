@@ -214,7 +214,7 @@ layout: center
 <div class="flex justify-center mb-20 mr-30">
   <div class="text-center flex items-center">
     <p class="text-7xl font-bold">1000<span v-if="$clicks === 2" class="text-2xl">分</span></p>
-  </div>
+  </div>s
 
   <div class="slidev-vclick-target flex ml-10">
     <mdi-arrow-right-bold class="h-30 w-30" />
