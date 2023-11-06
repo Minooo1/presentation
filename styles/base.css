@@ -1,5 +1,5 @@
 #app {
-  border: #ffffff thick double;
+  border: #56ffff thick double;
   border-radius: 10px;
 }
 
@@ -35,4 +35,8 @@ h4 {
 
 .slidev-layout li {
   margin-left: 0;
+}
+
+.strong {
+  color: #56ffff;
 }

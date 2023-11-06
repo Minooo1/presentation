@@ -11,17 +11,17 @@ info: アドベンチャーカップ
 drawings:
   persist: false
 mdc: true
-transition: fade
+transition: slide-left
 canvasWidth: 1300
 ---
 
-<h1>Adventure Cup</h1>
+<h1 class="strong">Adventure Cup</h1>
 
 ---
 
 <div class="slidev-layout two-columns w-full h-full grid grid-cols-2 items-center">
   <div class="pl-30">
-    <img src="/images/intro.png" class="rounded-full w-80 h-80" alt="自己紹介用の画像" />
+    <img src="/images/intro.png" class="rounded-full w-80 h-80 border-4 image" alt="自己紹介用の画像" />
   </div>
 
   <div class="flex flex-col justify-between">
@@ -50,6 +50,12 @@ canvasWidth: 1300
   </div>
 </div>
 
+<style>
+.image {
+  border-color: #56ffff;
+}
+</style>
+
 ---
 layout: center
 ---
@@ -68,7 +74,7 @@ layout: center
   <div class="slidev-vclick-target flex ml-10">
     <mdi-arrow-right-bold class="h-30 w-30" />
     <div class="flex flex-col justify-center ml-10">
-      <p class="text-9xl font-bold text-red-300">1</p>
+      <p class="text-9xl font-bold strong">1</p>
     </div>
   </div>
 </div>
@@ -81,7 +87,7 @@ layout: center
   <div class="slidev-vclick-target flex ml-10">
     <mdi-arrow-right-bold class="h-30 w-30" />
     <div class="flex flex-col justify-center ml-10">
-      <p class="text-9xl font-bold text-red-300">8</p>
+      <p class="text-9xl font-bold strong">8</p>
     </div>
   </div>
 </div>
@@ -114,7 +120,7 @@ layout: center
 layout: center
 ---
 
-<h2 class="text-center font-bold">テストとは？？</h2>
+<h2 class="text-center font-bold">テストとは？</h2>
 
 <ul class="mt-20">
   <li v-click class="pb-4 text-2xl">事前にバグや不具合等を検知するもの</li>
@@ -188,7 +194,7 @@ layout: center
   <div class="slidev-vclick-target flex ml-10">
     <mdi-arrow-right-bold class="h-30 w-30" />
     <div class="flex flex-col justify-center ml-10">
-      <p class="text-9xl font-bold text-red-300">1</p>
+      <p class="text-9xl font-bold strong">1</p>
     </div>
   </div>
 </div>
@@ -201,7 +207,7 @@ layout: center
   <div class="slidev-vclick-target flex ml-10">
     <mdi-arrow-right-bold class="h-30 w-30" />
     <div class="flex flex-col justify-center ml-10">
-      <p class="text-9xl font-bold text-red-300">8</p>
+      <p class="text-9xl font-bold strong">8</p>
     </div>
   </div>
 </div>
@@ -218,6 +224,7 @@ layout: center
 
 ---
 layout: center
+transition: fade-in
 ---
 
 <h4 class="font-bold mb-5">自動化</h4>
