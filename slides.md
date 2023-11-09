@@ -137,18 +137,78 @@ title: 自動テストの導入
 </div>
 
 <h2 v-click class="text-center font-bold strong">開発の助けになる</h2>
+
 ---
-layout: center
-title: 自動テストの導入
+layout: statement
 ---
 
-<h2 class="text-center font-bold">導入目的</h2>
+# 導入した結果
 
-<ul class="mt-20">
-  <li v-click class="pb-4 text-2xl">安全にサイトを改修できるようにする</li>
-  <li v-click class="pb-4 text-2xl">チーム内でテストに関する知見を増やす</li>
-  <li v-click class="pb-4 text-2xl">今後新規で開発する際の参考にする</li>
-</ul>
+<!-- 以前の構成はそもそもテストなかった -->
+<!-- そもそも検知できる仕組みがなかった -->
+<!-- もしバク等が発生した場合はリリースしてから気づく or もしくはそもそも気付けない状態だった。 -->
+<!-- 安心してコードを書けるようになった -->
+<!-- 法務チェック -->
+<!-- PR Times プレスリリース -->
+
+<!-- 1000分 => 8分 -->
+<!-- 自動化したという所です -->
+<!-- もし手動でやっていたら1000分かかるところだった。 -->
+
+---
+layout: statement
+title: 自動テスト導入後
+transition: fade-out
+---
+<h3 class="font-bold mb-5">バグを検知できるようになった</h3>
+
+<div v-click>
+  <h4 class="text-left font-bold mb-5">導入前</h4>
+
+  <img src="/images/cs-top.png" class="block aspect-auto h-4/5" alt="自動テストを導入する前の構成" />
+</div>
+
+<div class="text-center">
+  <mdi-arrow-down-bold v-click class="h-30 w-30" />
+</div>
+
+<h2 v-click class="text-center font-bold strong">そもそも検知する仕組みがなかった</h2>
+
+---
+layout: statement
+title: 自動テスト導入後
+---
+<h3 class="font-bold mb-5">バグを検知できるようになった</h3>
+
+<div v-click>
+  <h4 class="text-left font-bold mb-5">導入後</h4>
+
+  <img src="/images/composition.png" class="block aspect-auto h-4/5" alt="今回導入したテストの構成" />
+</div>
+
+<div class="text-center">
+  <mdi-arrow-down-bold v-click class="h-30 w-30" />
+</div>
+
+<h2 v-click class="text-center font-bold strong">安心して開発できる</h2>
+
+---
+layout: statement
+title: 自動テスト導入後
+---
+<h3 class="font-bold mb-5">バグを検知できるようになった</h3>
+
+<div v-click>
+  <h4 class="text-left font-bold mb-5">導入後</h4>
+
+  <img src="/images/composition.png" class="block aspect-auto h-4/5" alt="今回導入したテストの構成" />
+</div>
+
+<div class="text-center">
+  <mdi-arrow-down-bold v-click class="h-30 w-30" />
+</div>
+
+<h2 v-click class="text-center font-bold strong">安心して開発できる</h2>
 
 ---
 layout: statement
@@ -214,7 +274,7 @@ layout: center
 <div class="flex justify-center mb-20 mr-30">
   <div class="text-center flex items-center">
     <p class="text-7xl font-bold">1000<span v-if="$clicks === 2" class="text-2xl">分</span></p>
-  </div>s
+  </div>
 
   <div class="slidev-vclick-target flex ml-10">
     <mdi-arrow-right-bold class="h-30 w-30" />
