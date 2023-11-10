@@ -117,7 +117,7 @@ title: 自動テストの導入
 
 <h4 class="font-bold mb-5">全体構成</h4>
 
-<img src="/images/composition.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
+<img src="/images/composition-test.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
 
 ---
 layout: center
@@ -139,10 +139,30 @@ title: 自動テストの導入
 <h2 v-click class="text-center font-bold strong">開発の助けになる</h2>
 
 ---
+layout: center
+title: 自動テストの導入
+---
+
+<h2 class="text-center font-bold">他の業務で例えてみる</h2>
+
+<ul class="mt-10">
+  <li v-click class="pb-4 text-2xl">プロテインの検品がなかったら？</li>
+  <!-- どういうダブルチェックがあるのか知りたい。 -->
+  <li v-click class="pb-4 text-2xl">LPの法務チェックがなかったら？</li>
+  <li v-click class="text-2xl">保守性を高めるもの</li>
+</ul>
+
+<div class="text-center my-5">
+  <mdi-arrow-down-bold v-click class="h-30 w-30" />
+</div>
+
+<h2 v-click class="text-center font-bold strong">開発の助けになる</h2>
+
+---
 layout: statement
 ---
 
-# 導入した結果
+# 導入結果
 
 <!-- 以前の構成はそもそもテストなかった -->
 <!-- そもそも検知できる仕組みがなかった -->
@@ -154,13 +174,15 @@ layout: statement
 <!-- 1000分 => 8分 -->
 <!-- 自動化したという所です -->
 <!-- もし手動でやっていたら1000分かかるところだった。 -->
+<!-- プロテインの検品ないのめっちゃ怖いですよね？ -->
+<!-- それと同じことが起こっている状況でした。 -->
 
 ---
 layout: statement
-title: 自動テスト導入後
-transition: fade-out
+title: 導入結果①
+transition: fade-in
 ---
-<h3 class="font-bold mb-5">バグを検知できるようになった</h3>
+<h3 class="font-bold mb-5">①バグの検知</h3>
 
 <div v-click>
   <h4 class="text-left font-bold mb-5">導入前</h4>
@@ -172,49 +194,68 @@ transition: fade-out
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong">そもそも検知する仕組みがなかった</h2>
+<h2 v-click class="text-center font-bold strong">検知する仕組みがなかった</h2>
 
 ---
 layout: statement
-title: 自動テスト導入後
+title: 導入結果①
 ---
-<h3 class="font-bold mb-5">バグを検知できるようになった</h3>
+<h3 class="font-bold mb-5">①バグの検知</h3>
 
 <div v-click>
   <h4 class="text-left font-bold mb-5">導入後</h4>
 
-  <img src="/images/composition.png" class="block aspect-auto h-4/5" alt="今回導入したテストの構成" />
+  <img src="/images/composition-test.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
 </div>
 
 <div class="text-center">
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong">安心して開発できる</h2>
+<h2 v-click class="text-center font-bold strong">事前にバグを検知できる</h2>
 
 ---
 layout: statement
-title: 自動テスト導入後
+transition: fade-in
+title: 導入結果②
 ---
-<h3 class="font-bold mb-5">バグを検知できるようになった</h3>
+<h3 class="font-bold mb-5">②自動化</h3>
 
 <div v-click>
-  <h4 class="text-left font-bold mb-5">導入後</h4>
+  <h4 class="text-left font-bold mb-5">手動の場合</h4>
 
-  <img src="/images/composition.png" class="block aspect-auto h-4/5" alt="今回導入したテストの構成" />
+  <img src="/images/composition-manual.png" class="w-full h-full" alt="今回導入したテストの構成の手動バージョン" />
 </div>
 
 <div class="text-center">
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong">安心して開発できる</h2>
+<h2 v-click class="text-center font-bold strong">1000分</h2>
+
+---
+layout: statement
+title: 導入結果②
+---
+<h3 class="font-bold mb-5">②自動化</h3>
+
+<div v-click>
+  <h4 class="text-left font-bold mb-5">自動化</h4>
+
+  <img src="/images/composition-test.png" class="w-full h-full" alt="今回導入したテストの構成" />
+</div>
+
+<div class="text-center">
+  <mdi-arrow-down-bold v-click class="h-30 w-30" />
+</div>
+
+<h2 v-click class="text-center font-bold strong">8分</h2>
 
 ---
 layout: statement
 ---
 
-# 導入したテストの紹介
+# どんなテストをしているのか
 
 ---
 title: テストの紹介
