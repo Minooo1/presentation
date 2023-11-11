@@ -126,7 +126,7 @@ title: 自動テストの導入
 
 <h2 class="text-center font-bold">テストとは？</h2>
 
-<ul class="mt-10">
+<ul class="mt-15 w-3/4 m-auto">
   <li v-click class="pb-4 text-2xl">リリース前にバグや不具合等を検知するもの</li>
   <li v-click class="pb-4 text-2xl">コードの品質を担保するもの</li>
   <li v-click class="text-2xl">保守性を高めるもの</li>
@@ -136,7 +136,7 @@ title: 自動テストの導入
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong">開発の助けになる</h2>
+<h2 v-click class="text-center font-bold strong">信用に関わる大事な工程</h2>
 
 ---
 layout: center
@@ -145,18 +145,19 @@ title: 自動テストの導入
 
 <h2 class="text-center font-bold">他の業務で例えてみる</h2>
 
-<ul class="mt-10">
+<ul class="mt-15 w-3/5 m-auto">
   <li v-click class="pb-4 text-2xl">プロテインの検品がなかったら？</li>
   <!-- どういうダブルチェックがあるのか知りたい。 -->
   <li v-click class="pb-4 text-2xl">LPの法務チェックがなかったら？</li>
+  <li v-click class="pb-4 text-2xl">保守性を高めるもの</li>
   <li v-click class="text-2xl">保守性を高めるもの</li>
 </ul>
 
-<div class="text-center my-5">
+<!-- <div class="text-center my-5">
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong">開発の助けになる</h2>
+<h2 v-click class="text-center font-bold strong">信用に関わる大事な工程</h2> -->
 
 ---
 layout: statement
@@ -194,7 +195,26 @@ transition: fade-in
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong">検知する仕組みがなかった</h2>
+<h2 v-after class="text-center font-bold strong" >検知する仕組みがなかった</h2>
+
+---
+layout: statement
+title: 導入結果①
+transition: fade-in
+---
+<h3 class="font-bold mb-5">①バグの検知</h3>
+
+<div>
+  <h4 class="text-left font-bold mb-5">導入前</h4>
+
+  <img src="/images/cs-top.png" class="block aspect-auto h-4/5" alt="自動テストを導入する前の構成" />
+</div>
+
+<div class="text-center">
+  <mdi-arrow-down-bold class="h-30 w-30" />
+</div>
+
+<h2 class="text-center font-bold strong" >ぶっつけ本番リリース</h2>
 
 ---
 layout: statement
@@ -212,7 +232,7 @@ title: 導入結果①
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong">事前にバグを検知できる</h2>
+<h2 v-after class="text-center font-bold strong">バグを検知できる仕組み</h2>
 
 ---
 layout: statement
@@ -231,7 +251,7 @@ title: 導入結果②
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong">1000分</h2>
+<h2 v-after class="text-center font-bold strong">1000分</h2>
 
 ---
 layout: statement
@@ -239,7 +259,7 @@ title: 導入結果②
 ---
 <h3 class="font-bold mb-5">②自動化</h3>
 
-<div v-click>
+<div>
   <h4 class="text-left font-bold mb-5">自動化</h4>
 
   <img src="/images/composition-test.png" class="w-full h-full" alt="今回導入したテストの構成" />
@@ -249,7 +269,7 @@ title: 導入結果②
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong">8分</h2>
+<h2 v-after class="text-center font-bold strong">8分</h2>
 
 ---
 layout: statement
