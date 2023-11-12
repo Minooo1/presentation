@@ -113,11 +113,21 @@ layout: center
 ---
 layout: center
 title: 自動テストの導入
+transition: fade-in
 ---
 
 <h4 class="font-bold mb-5">全体構成</h4>
 
-<img src="/images/composition-test.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
+<img src="/images/composition.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
+
+---
+layout: center
+title: 自動テストの導入
+---
+
+<h4 class="font-bold mb-5">全体構成</h4>
+
+<img src="/images/composition-auto.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
 
 ---
 layout: center
@@ -161,6 +171,7 @@ title: 自動テストの導入
 
 ---
 layout: statement
+transition: fade-in
 ---
 
 # 導入結果
@@ -200,7 +211,7 @@ transition: fade-in
 ---
 layout: statement
 title: 導入結果①
-transition: fade-in
+transition: fade-out
 ---
 <h3 class="font-bold mb-5">①バグの検知</h3>
 
@@ -219,10 +230,11 @@ transition: fade-in
 ---
 layout: statement
 title: 導入結果①
+transition: fade-in
 ---
 <h3 class="font-bold mb-5">①バグの検知</h3>
 
-<div v-click>
+<div>
   <h4 class="text-left font-bold mb-5">導入後</h4>
 
   <img src="/images/composition-test.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
@@ -242,7 +254,7 @@ title: 導入結果②
 <h3 class="font-bold mb-5">②自動化</h3>
 
 <div v-click>
-  <h4 class="text-left font-bold mb-5">手動の場合</h4>
+  <h4 class="text-left font-bold mb-5">手動</h4>
 
   <img src="/images/composition-manual.png" class="w-full h-full" alt="今回導入したテストの構成の手動バージョン" />
 </div>
@@ -256,13 +268,14 @@ title: 導入結果②
 ---
 layout: statement
 title: 導入結果②
+transition: fade-in
 ---
 <h3 class="font-bold mb-5">②自動化</h3>
 
 <div>
-  <h4 class="text-left font-bold mb-5">自動化</h4>
+  <h4 class="text-left font-bold mb-5">自動</h4>
 
-  <img src="/images/composition-test.png" class="w-full h-full" alt="今回導入したテストの構成" />
+  <img src="/images/composition-auto.png" class="w-full h-full" alt="今回導入したテストの構成" />
 </div>
 
 <div class="text-center">
@@ -272,7 +285,22 @@ title: 導入結果②
 <h2 v-after class="text-center font-bold strong">8分</h2>
 
 ---
+layout: center
+title: 導入結果
+---
+
+<h2 class="text-center font-bold">導入まとめ</h2>
+
+<ul class="mt-15 w-full m-auto">
+  <li v-click class="pb-4 text-2xl">バグを検知できるようになった</li>
+  <li v-click class="pb-4 text-2xl">自動化したことで</li>
+  <li v-click class="text-2xl">必ずリリース前にテストを実行できるようになった</li>
+</ul>
+
+
+---
 layout: statement
+transition: fade-in
 ---
 
 # どんなテストをしているのか
