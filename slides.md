@@ -68,7 +68,7 @@ layout: center
 layout: center
 ---
 
-<div class="flex justify-center mb-20" :class="{ active: $clicks === 1 }">
+<div class="flex justify-center">
   <div class="text-center flex items-center">
     <p class="text-7xl font-bold">0</p>
   </div>
@@ -81,7 +81,7 @@ layout: center
   </div>
 </div>
 
-<div class="flex justify-center mb-20 mr-30" v-click-hide>
+<!-- <div class="flex justify-center mb-20 mr-30" v-click-hide>
   <div class="text-center flex items-center">
     <p class="text-7xl font-bold">1000</p>
   </div>
@@ -92,9 +92,9 @@ layout: center
       <p class="text-9xl font-bold strong">8</p>
     </div>
   </div>
-</div>
+</div> -->
 
-<style>
+<!-- <style>
 .slidev-vclick-target {
   transition: all 500ms ease;
 }
@@ -102,7 +102,7 @@ layout: center
 .slidev-vclick-hidden {
   display: none;
 }
-</style>
+</style> -->
 
 ---
 layout: center
@@ -278,11 +278,45 @@ transition: fade-in
   <img src="/images/composition-auto.png" class="w-full h-full" alt="今回導入したテストの構成" />
 </div>
 
+<div class="opacity-0">
+  <mdi-arrow-down-bold class="h-30 w-30" />
+</div>
+
+<h2 class="opacity-0">8分</h2>
+
+---
+layout: statement
+title: 導入結果②
+transition: fade-in
+---
+<h3 class="font-bold mb-5">②自動化</h3>
+
+<div>
+  <h4 class="text-left font-bold mb-5">自動</h4>
+
+  <img src="/images/composition-release.png" class="w-full h-full" alt="今回導入したテストの構成" />
+</div>
+
 <div class="text-center">
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
 <h2 v-after class="text-center font-bold strong">8分</h2>
+
+---
+layout: center
+title: 導入結果②
+---
+
+<h2 class="font-bold text-center">1000分</h2>
+
+<ul class="mt-10 w-full m-auto">
+  <li v-click class="pb-4 text-2xl">約16時間40分</li>
+  <li v-click class="pb-4 text-2xl">レバレッジの営業の架電200件</li>
+  <li v-click class="pb-4 text-2xl">レバレッジの動画作成100本</li>
+  <li v-click class="pb-4 text-2xl">レバレッジの法務チェック100本</li>
+</ul>
+
 
 ---
 layout: center
