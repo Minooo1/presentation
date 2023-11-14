@@ -1,6 +1,6 @@
 <template>
   <footer class="absolute top-0 left-3">
-    <Titles :no="//@ts-ignore
+    <Titles v-if="hasTitle" :no="//@ts-ignore
     $slidev.nav.currentPage" class="font-bold border-solid border-b-4 border-b-[#56ffff] pb-2" />
   </footer>
 </template>
@@ -10,10 +10,10 @@
 import Titles from "/@slidev/titles.md";
 import { computed } from "vue";
 
-const needTitlePageNumbers = [2,6,7,9,10,11,12,15,16] as const
+const notNeedTitlePageNumbers = [1,3,4,5,10,19] as const
 
 const hasTitle = computed(() => {
   //@ts-ignore
-  return needTitlePageNumbers.includes($slidev.nav.currentPage as number);
+  return !notNeedTitlePageNumbers.includes($slidev.nav.currentPage as number);
 })
 </script>

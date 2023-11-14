@@ -138,7 +138,8 @@ title: 自動テストの導入
 
 <ul class="mt-15 w-3/4 m-auto">
   <li v-click class="pb-4 text-2xl">リリース前にバグや不具合等を検知するもの</li>
-  <li v-click class="pb-4 text-2xl">コードの品質を担保するもの</li>
+  <li v-click class="pb-4 text-2xl">サイトの品質を担保するもの</li>
+  <!-- <li v-click class="pb-4 text-2xl">コードの品質を担保するもの</li> -->
   <li v-click class="text-2xl">保守性を高めるもの</li>
 </ul>
 
@@ -146,7 +147,7 @@ title: 自動テストの導入
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong">信用に関わる大事な工程</h2>
+<h2 v-click class="text-center font-bold strong">開発における重要な工程</h2>
 
 ---
 layout: center
@@ -159,8 +160,8 @@ title: 自動テストの導入
   <li v-click class="pb-4 text-2xl">プロテインの検品がなかったら？</li>
   <!-- どういうダブルチェックがあるのか知りたい。 -->
   <li v-click class="pb-4 text-2xl">LPの法務チェックがなかったら？</li>
-  <li v-click class="pb-4 text-2xl">保守性を高めるもの</li>
-  <li v-click class="text-2xl">保守性を高めるもの</li>
+  <!-- <li v-click class="pb-4 text-2xl">デザイン</li>
+  <li v-click class="text-2xl">保守性を高めるもの</li> -->
 </ul>
 
 <!-- <div class="text-center my-5">
@@ -314,7 +315,7 @@ title: 導入結果②
   <li v-click class="pb-4 text-2xl">約16時間40分</li>
   <li v-click class="pb-4 text-2xl">レバレッジの営業の架電200件</li>
   <li v-click class="pb-4 text-2xl">レバレッジの動画作成100本</li>
-  <li v-click class="pb-4 text-2xl">レバレッジの法務チェック100本</li>
+  <li v-click class="pb-4 text-2xl">レバレッジのLP法務チェック100本</li>
 </ul>
 
 
@@ -326,9 +327,8 @@ title: 導入結果
 <h2 class="text-center font-bold">導入まとめ</h2>
 
 <ul class="mt-15 w-full m-auto">
-  <li v-click class="pb-4 text-2xl">バグを検知できるようになった</li>
-  <li v-click class="pb-4 text-2xl">自動化したことで</li>
-  <li v-click class="text-2xl">必ずリリース前にテストを実行できるようになった</li>
+  <li v-click class="pb-4 text-2xl">バグを検知できる仕組みができた</li>
+  <li v-click class="text-2xl">自動化したことで必ずリリース前にテストを実行できるようになった</li>
 </ul>
 
 
@@ -337,26 +337,7 @@ layout: statement
 transition: fade-in
 ---
 
-# どんなテストをしているのか
-
----
-title: テストの紹介
----
-
-<h2 class="text-center font-bold mb-10">コードチェック</h2>
-
-```ts {1,10|2|4|6-9}
-export const usePolitePopup = () => {
-  const visible = ref(false);
-
-  const trigger = () => {}
-
-  return {
-    visible,
-    trigger,
-  };
-};
-```
+# テストの紹介
 
 ---
 title: テストの紹介
