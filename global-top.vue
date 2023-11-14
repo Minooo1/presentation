@@ -10,7 +10,7 @@
 import Titles from "/@slidev/titles.md";
 import { computed } from "vue";
 
-const notNeedTitlePageNumbers = [1,3,4,5,10,19] as const
+const notNeedTitlePageNumbers = [1,3,4,5,10,19,22] as const
 
 const hasTitle = computed(() => {
   //@ts-ignore
