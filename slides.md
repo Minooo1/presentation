@@ -1,6 +1,6 @@
 ---
 theme: default
-layout: center
+layout: cover
 colorSchema: dark
 highlighter: shiki
 lineNumbers: false
@@ -12,13 +12,14 @@ drawings:
   persist: false
 mdc: true
 transition: slide-left
-canvasWidth: 1300
+canvasWidth: 1200
 ---
 
 <h1 class="strong">Adventure Cup</h1>
 
 ---
 title: 自己紹介
+layout: default
 ---
 
 <div class="slidev-layout two-columns w-full h-full grid grid-cols-2 items-center">
@@ -66,6 +67,7 @@ layout: center
 
 ---
 layout: center
+transition: fade-in
 ---
 
 <div class="flex justify-center">
@@ -105,10 +107,10 @@ layout: center
 </style> -->
 
 ---
-layout: center
+layout: intro
 ---
 
-<h1>自動テストの導入</h1>
+# 自動テストの導入
 
 ---
 layout: center
@@ -151,6 +153,7 @@ title: 自動テストの導入
 
 ---
 layout: center
+transition: fade-in
 title: 自動テストの導入
 ---
 
@@ -171,8 +174,7 @@ title: 自動テストの導入
 <h2 v-click class="text-center font-bold strong">信用に関わる大事な工程</h2> -->
 
 ---
-layout: statement
-transition: fade-in
+layout: cover
 ---
 
 # 導入結果
@@ -191,11 +193,11 @@ transition: fade-in
 <!-- それと同じことが起こっている状況でした。 -->
 
 ---
-layout: statement
+layout: center
 title: 導入結果①
 transition: fade-in
 ---
-<h3 class="font-bold mb-5">①バグの検知</h3>
+<h3 class="font-bold mb-5 text-center">①バグの検知</h3>
 
 <div v-click>
   <h4 class="text-left font-bold mb-5">導入前</h4>
@@ -231,7 +233,6 @@ transition: fade-out
 ---
 layout: statement
 title: 導入結果①
-transition: fade-in
 ---
 <h3 class="font-bold mb-5">①バグの検知</h3>
 
@@ -249,12 +250,11 @@ transition: fade-in
 
 ---
 layout: statement
-transition: fade-in
 title: 導入結果②
 ---
 <h3 class="font-bold mb-5">②自動化</h3>
 
-<div v-click>
+<div>
   <h4 class="text-left font-bold mb-5">手動</h4>
 
   <img src="/images/composition-manual.png" class="w-full h-full" alt="今回導入したテストの構成の手動バージョン" />
@@ -288,7 +288,6 @@ transition: fade-in
 ---
 layout: statement
 title: 導入結果②
-transition: fade-in
 ---
 <h3 class="font-bold mb-5">②自動化</h3>
 
@@ -321,7 +320,8 @@ title: 導入結果②
 
 ---
 layout: center
-title: 導入結果
+transition: fade-in
+title: 導入まとめ
 ---
 
 <h2 class="text-center font-bold">導入まとめ</h2>
@@ -333,8 +333,7 @@ title: 導入結果
 
 
 ---
-layout: statement
-transition: fade-in
+layout: intro
 ---
 
 # テストの紹介
