@@ -152,12 +152,12 @@ title: 自動テストの導入
 <h2 v-click class="text-center font-bold strong">開発における重要な工程</h2>
 
 ---
-layout: center
+layout: default
 transition: fade-in
 title: 自動テストの導入
 ---
 
-<h2 class="text-center font-bold">他の業務で例えてみる</h2>
+<h2 class="text-center font-bold mt-10">他の業務で例えてみる</h2>
 
 <ul class="mt-15 w-3/5 m-auto">
   <li v-click class="pb-4 text-2xl">プロテインの検品がなかったら？</li>
@@ -212,11 +212,11 @@ transition: fade-in
 <h2 v-after class="text-center font-bold strong" >検知する仕組みがなかった</h2>
 
 ---
-layout: statement
+layout: center
 title: 導入結果①
 transition: fade-out
 ---
-<h3 class="font-bold mb-5">①バグの検知</h3>
+<h3 class="font-bold mb-5 text-center">①バグの検知</h3>
 
 <div>
   <h4 class="text-left font-bold mb-5">導入前</h4>
@@ -231,10 +231,10 @@ transition: fade-out
 <h2 class="text-center font-bold strong" >ぶっつけ本番リリース</h2>
 
 ---
-layout: statement
+layout: center
 title: 導入結果①
 ---
-<h3 class="font-bold mb-5">①バグの検知</h3>
+<h3 class="font-bold mb-5 text-center">①バグの検知</h3>
 
 <div>
   <h4 class="text-left font-bold mb-5">導入後</h4>
@@ -249,10 +249,11 @@ title: 導入結果①
 <h2 v-after class="text-center font-bold strong">バグを検知できる仕組み</h2>
 
 ---
-layout: statement
+layout: center
 title: 導入結果②
+transition: fade-in
 ---
-<h3 class="font-bold mb-5">②自動化</h3>
+<h3 class="font-bold mb-5 text-center">②自動化</h3>
 
 <div>
   <h4 class="text-left font-bold mb-5">手動</h4>
@@ -267,11 +268,11 @@ title: 導入結果②
 <h2 v-after class="text-center font-bold strong">1000分</h2>
 
 ---
-layout: statement
+layout: center
 title: 導入結果②
 transition: fade-in
 ---
-<h3 class="font-bold mb-5">②自動化</h3>
+<h3 class="font-bold mb-5 text-center">②自動化</h3>
 
 <div>
   <h4 class="text-left font-bold mb-5">自動</h4>
@@ -286,10 +287,10 @@ transition: fade-in
 <h2 class="opacity-0">8分</h2>
 
 ---
-layout: statement
+layout: center
 title: 導入結果②
 ---
-<h3 class="font-bold mb-5">②自動化</h3>
+<h3 class="font-bold mb-5 text-center">②自動化</h3>
 
 <div>
   <h4 class="text-left font-bold mb-5">自動</h4>
@@ -304,13 +305,13 @@ title: 導入結果②
 <h2 v-after class="text-center font-bold strong">8分</h2>
 
 ---
-layout: center
+layout: default
 title: 導入結果②
 ---
 
-<h2 class="font-bold text-center">1000分</h2>
+<h2 class="font-bold mt-10 text-center">1000分</h2>
 
-<ul class="mt-10 w-full m-auto">
+<ul class="mt-10 w-3/5 m-auto">
   <li v-click class="pb-4 text-2xl">約16時間40分</li>
   <li v-click class="pb-4 text-2xl">レバレッジの営業の架電200件</li>
   <li v-click class="pb-4 text-2xl">レバレッジの動画作成100本</li>
@@ -319,12 +320,12 @@ title: 導入結果②
 
 
 ---
-layout: center
+layout: default
 transition: fade-in
 title: 導入まとめ
 ---
 
-<h2 class="text-center font-bold">導入まとめ</h2>
+<h2 class="mt-10 text-center font-bold">導入まとめ</h2>
 
 <ul class="mt-15 w-full m-auto">
   <li v-click class="pb-4 text-2xl">バグを検知できる仕組みができた</li>
