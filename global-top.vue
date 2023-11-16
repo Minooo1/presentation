@@ -10,10 +10,21 @@
 import Titles from "/@slidev/titles.md";
 import { computed } from "vue";
 
-const notNeedTitlePageNumbers = [1,3,4,5,10,19,22] as const
+type TypeTree = {
+  active: boolean;
+  children: string[]
+  hasActiveParent: boolean;
+  hideInToc: boolean;
+  level: number;
+  path: string;
+  title: string;
+}
 
 const hasTitle = computed(() => {
   //@ts-ignore
-  return !notNeedTitlePageNumbers.includes($slidev.nav.currentPage as number);
+  const trees: TypeTree[] = $slidev.nav.tree;
+
+  //@ts-ignore
+  return trees.find(tree => tree.path === $slidev.nav.currentPath.replace("/", ""));
 })
 </script>

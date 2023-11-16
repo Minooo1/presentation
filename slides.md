@@ -4,7 +4,6 @@ layout: cover
 colorSchema: dark
 highlighter: shiki
 lineNumbers: false
-title: アドベンチャーカップ
 fonts:
   sans: "Noto Sans JP"
 info: アドベンチャーカップ
