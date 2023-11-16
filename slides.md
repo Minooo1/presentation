@@ -83,34 +83,10 @@ transition: fade-in
   </div>
 </div>
 
-<!-- <div class="flex justify-center mb-20 mr-30" v-click-hide>
-  <div class="text-center flex items-center">
-    <p class="text-7xl font-bold">1000</p>
-  </div>
-
-  <div class="slidev-vclick-target flex ml-10">
-    <mdi-arrow-right-bold class="h-30 w-30" />
-    <div class="flex flex-col justify-center ml-10">
-      <p class="text-9xl font-bold strong">8</p>
-    </div>
-  </div>
-</div> -->
-
-<!-- <style>
-.slidev-vclick-target {
-  transition: all 500ms ease;
-}
-
-.slidev-vclick-hidden {
-  display: none;
-}
-</style> -->
-
 ---
-layout: intro
+src: "./pages/title01.md"
 ---
 
-# 自動テストの導入
 
 ---
 layout: center
@@ -174,10 +150,8 @@ title: 自動テストの導入
 <h2 v-click class="text-center font-bold strong">信用に関わる大事な工程</h2> -->
 
 ---
-layout: cover
+src: "./pages/title02.md"
 ---
-
-# 導入結果
 
 <!-- 以前の構成はそもそもテストなかった -->
 <!-- そもそも検知できる仕組みがなかった -->
@@ -334,10 +308,8 @@ title: 導入まとめ
 
 
 ---
-layout: intro
+src: "./pages/title03.md"
 ---
-
-# テストの紹介
 
 ---
 title: テストの紹介
@@ -350,6 +322,10 @@ title: テストの紹介
 ---
 
 <h2 class="text-center font-bold">UIテスト</h2>
+
+---
+src: "./pages/title04.md"
+---
 
 ---
 layout: end
