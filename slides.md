@@ -187,7 +187,7 @@ transition: fade-in
 ---
 layout: center
 title: 導入結果①
-transition: fade-out
+transition: fade-in
 ---
 <h3 class="font-bold mb-5 text-center">①バグの検知</h3>
 
@@ -284,7 +284,7 @@ title: 導入結果②
 
 <h2 class="font-bold mt-10 text-center">1000分</h2>
 
-<ul class="mt-10 w-3/5 m-auto">
+<ul class="mt-15 w-2/4 m-auto">
   <li v-click class="pb-4 text-2xl">約16時間40分</li>
   <li v-click class="pb-4 text-2xl">レバレッジの営業の架電200件</li>
   <li v-click class="pb-4 text-2xl">レバレッジの動画作成100本</li>
@@ -300,8 +300,11 @@ title: 導入まとめ
 
 <h2 class="mt-10 text-center font-bold">導入まとめ</h2>
 
-<ul class="mt-15 w-full m-auto">
+<ul class="mt-15 w-2/4 m-auto">
   <li v-click class="pb-4 text-2xl">バグを検知できる仕組みができた</li>
+  <li v-click class="pb-4 text-2xl">リリース前に事前にわかるようになった。</li>
+  <li v-click class="pb-4 text-2xl">本番反映時の可能性が減った。</li>
+  <li v-click class="pb-4 text-2xl">開発者は工数が増えずにできるようになった</li>
   <li v-click class="text-2xl">自動化したことで必ずリリース前にテストを実行できるようになった</li>
 </ul>
 
