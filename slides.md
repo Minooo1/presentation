@@ -5,7 +5,7 @@ colorSchema: dark
 highlighter: shiki
 lineNumbers: false
 fonts:
-  sans: "Noto Sans JP"
+  sans: Noto Sans JP
 info: アドベンチャーカップ
 drawings:
   persist: false
@@ -15,6 +15,10 @@ canvasWidth: 1200
 ---
 
 <h1 class="strong">Adventure Cup</h1>
+
+<!--
+
+-->
 
 ---
 title: 自己紹介
@@ -86,26 +90,6 @@ transition: fade-in
 src: "./pages/title01.md"
 ---
 
-
----
-layout: center
-title: 自動テストの導入
-transition: fade-in
----
-
-<h4 class="font-bold mb-5">全体構成</h4>
-
-<img src="/images/composition.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
-
----
-layout: center
-title: 自動テストの導入
----
-
-<h4 class="font-bold mb-5">全体構成</h4>
-
-<img src="/images/composition-auto.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
-
 ---
 layout: center
 title: 自動テストの導入
@@ -132,7 +116,7 @@ transition: fade-in
 title: 自動テストの導入
 ---
 
-<h2 class="text-center font-bold mt-10">他の業務で例えてみる</h2>
+<h2 class="text-center font-bold">他の業務で例えてみる</h2>
 
 <ul class="mt-20 w-3/5 m-auto">
   <li v-click class="pb-4 text-2xl">プロテインの検品がなかったら？</li>
@@ -147,6 +131,25 @@ title: 自動テストの導入
 </div>
 
 <h2 v-click class="text-center font-bold strong">信用に関わる大事な工程</h2> -->
+
+---
+layout: center
+title: 自動テストの導入
+transition: fade-in
+---
+
+<h4 class="font-bold mb-5">全体構成</h4>
+
+<img src="/images/composition.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
+
+---
+layout: center
+title: 自動テストの導入
+---
+
+<h4 class="font-bold mb-5">全体構成</h4>
+
+<img src="/images/composition-auto.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
 
 ---
 src: "./pages/title02.md"
@@ -164,6 +167,22 @@ src: "./pages/title02.md"
 <!-- もし手動でやっていたら1000分かかるところだった。 -->
 <!-- プロテインの検品ないのめっちゃ怖いですよね？ -->
 <!-- それと同じことが起こっている状況でした。 -->
+
+---
+title: テストの紹介
+---
+
+<h2 class="text-center font-bold">お問い合わせフォーム</h2>
+
+---
+title: テストの紹介
+---
+
+<h2 class="text-center font-bold">UIテスト</h2>
+
+---
+src: "./pages/title03.md"
+---
 
 ---
 layout: center
@@ -284,6 +303,7 @@ title: 導入結果②
 
 <h2 class="font-bold mt-10 text-center">1000分</h2>
 
+<!-- TODO: もう少し正規な値を入れたい -->
 <ul class="mt-20 w-2/4 m-auto">
   <li v-click class="pb-4 text-2xl">約16時間40分</li>
   <li v-click class="pb-4 text-2xl">レバレッジの営業の架電200件</li>
@@ -304,30 +324,21 @@ title: 導入まとめ
   <li v-click class="pb-4 text-2xl">バグを検知できる仕組みができた</li>
   <li v-click class="pb-4 text-2xl">リリース前に事前にわかるようになった。</li>
   <li v-click class="pb-4 text-2xl">本番反映時の可能性が減った。</li>
-  <li v-click class="pb-4 text-2xl">開発者は工数が増えずにできるようになった</li>
+  <li v-click class="pb-4 text-2xl">開発者は工数が増えずにできるように</li>
   <li v-click class="text-2xl">自動化したことで必ずリリース前にテストを実行できるようになった</li>
 </ul>
 
 
 ---
-src: "./pages/title03.md"
----
-
----
-title: テストの紹介
----
-
-<h2 class="text-center font-bold">お問い合わせフォーム</h2>
-
----
-title: テストの紹介
----
-
-<h2 class="text-center font-bold">UIテスト</h2>
-
----
 src: "./pages/title04.md"
 ---
+
+---
+layout: center
+title: 苦労したこと
+---
+
+
 
 ---
 layout: end
