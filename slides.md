@@ -127,14 +127,14 @@ title: 自動テストの導入
 <h2 v-click class="text-center font-bold strong">開発における重要な工程</h2>
 
 ---
-layout: default
+layout: center
 transition: fade-in
 title: 自動テストの導入
 ---
 
 <h2 class="text-center font-bold mt-10">他の業務で例えてみる</h2>
 
-<ul class="mt-15 w-3/5 m-auto">
+<ul class="mt-20 w-3/5 m-auto">
   <li v-click class="pb-4 text-2xl">プロテインの検品がなかったら？</li>
   <!-- どういうダブルチェックがあるのか知りたい。 -->
   <li v-click class="pb-4 text-2xl">LPの法務チェックがなかったら？</li>
@@ -201,7 +201,7 @@ transition: fade-in
   <mdi-arrow-down-bold class="h-30 w-30" />
 </div>
 
-<h2 class="text-center font-bold strong" >ぶっつけ本番リリース</h2>
+<h2 v-click class="text-center font-bold strong" >ぶっつけ本番リリース</h2>
 
 ---
 layout: center
@@ -228,7 +228,7 @@ transition: fade-in
 ---
 <h3 class="font-bold mb-5 text-center">②自動化</h3>
 
-<div>
+<div v-click>
   <h4 class="text-left font-bold mb-5">手動</h4>
 
   <img src="/images/composition-manual.png" class="w-full h-full" alt="今回導入したテストの構成の手動バージョン" />
@@ -284,7 +284,7 @@ title: 導入結果②
 
 <h2 class="font-bold mt-10 text-center">1000分</h2>
 
-<ul class="mt-15 w-2/4 m-auto">
+<ul class="mt-20 w-2/4 m-auto">
   <li v-click class="pb-4 text-2xl">約16時間40分</li>
   <li v-click class="pb-4 text-2xl">レバレッジの営業の架電200件</li>
   <li v-click class="pb-4 text-2xl">レバレッジの動画作成100本</li>
