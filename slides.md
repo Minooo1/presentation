@@ -16,10 +16,6 @@ canvasWidth: 1200
 
 <h1 class="strong">Adventure Cup</h1>
 
-<!--
-
--->
-
 ---
 title: 自己紹介
 layout: default
@@ -63,10 +59,8 @@ layout: default
 </style>
 
 ---
-layout: center
+src: "./pages/start.md"
 ---
-
-<h1 class="strong">Start</h1>
 
 ---
 layout: center

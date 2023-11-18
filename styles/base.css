@@ -7,6 +7,10 @@ body {
   letter-spacing: 0.15em;
 }
 
+.dark #slide-content {
+  background-color: black;
+}
+
 h1,
 h2,
 h3,
