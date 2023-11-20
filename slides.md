@@ -92,10 +92,9 @@ title: 自動テストの導入
 <h2 class="text-center font-bold">テストとは？</h2>
 
 <ul class="mt-15 w-3/4 m-auto">
-  <li v-click class="pb-4 text-2xl">リリース前にバグや不具合等を検知するもの</li>
+  <li v-click class="pb-4 text-2xl">バグや不具合等を検知するもの</li>
   <li v-click class="pb-4 text-2xl">サイトの品質を担保するもの</li>
-  <!-- <li v-click class="pb-4 text-2xl">コードの品質を担保するもの</li> -->
-  <li v-click class="text-2xl">保守性を高めるもの</li>
+  <li v-click class="text-2xl">プログラムの保守性を高めるもの</li>
 </ul>
 
 <div class="text-center my-5">
@@ -103,6 +102,14 @@ title: 自動テストの導入
 </div>
 
 <h2 v-click class="text-center font-bold strong">開発における重要な工程</h2>
+
+<!--
+1. バグを含めてリリースしてしまうと、会社や事業への信頼を失ってしまう。最近だと銀行のシステムなど。
+
+2.テストに合格してリリースすることで一定の品質を担保した状態になる。
+
+3.保守性とは、書いたプログラムがメンテナンスしやすいかどうか。エンジニアの視点。
+-->
 
 ---
 layout: center
@@ -112,19 +119,15 @@ title: 自動テストの導入
 
 <h2 class="text-center font-bold">他の業務で例えてみる</h2>
 
-<ul class="mt-20 w-3/5 m-auto">
+<ul class="mt-20 w-4/5 m-auto">
   <li v-click class="pb-4 text-2xl">プロテインの検品がなかったら？</li>
   <!-- どういうダブルチェックがあるのか知りたい。 -->
-  <li v-click class="pb-4 text-2xl">LPの法務チェックがなかったら？</li>
+  <li v-click class="pb-4 text-2xl">LP / ECサイトの法務チェックがなかったら？</li>
+  <li v-click class="pb-4 text-2xl">YouTubeのチェックがなかったら？</li>
   <!-- <li v-click class="pb-4 text-2xl">デザイン</li>
   <li v-click class="text-2xl">保守性を高めるもの</li> -->
 </ul>
 
-<!-- <div class="text-center my-5">
-  <mdi-arrow-down-bold v-click class="h-30 w-30" />
-</div>
-
-<h2 v-click class="text-center font-bold strong">信用に関わる大事な工程</h2> -->
 
 ---
 layout: center
@@ -149,19 +152,6 @@ title: 自動テストの導入
 src: "./pages/title02.md"
 ---
 
-<!-- 以前の構成はそもそもテストなかった -->
-<!-- そもそも検知できる仕組みがなかった -->
-<!-- もしバク等が発生した場合はリリースしてから気づく or もしくはそもそも気付けない状態だった。 -->
-<!-- 安心してコードを書けるようになった -->
-<!-- 法務チェック -->
-<!-- PR Times プレスリリース -->
-
-<!-- 1000分 => 8分 -->
-<!-- 自動化したという所です -->
-<!-- もし手動でやっていたら1000分かかるところだった。 -->
-<!-- プロテインの検品ないのめっちゃ怖いですよね？ -->
-<!-- それと同じことが起こっている状況でした。 -->
-
 ---
 title: テストの紹介
 ---
@@ -183,6 +173,7 @@ layout: center
 title: 導入結果①
 transition: fade-in
 ---
+
 <h3 class="font-bold mb-5 text-center">①バグの検知</h3>
 
 <div v-click>
@@ -196,6 +187,16 @@ transition: fade-in
 </div>
 
 <h2 v-after class="text-center font-bold strong" >検知する仕組みがなかった</h2>
+
+<!--
+以前の構成はそもそもテストなかった。
+
+そもそも検知できる仕組みがなかった
+もしバク等が発生した場合はリリースしてから気づく or もしくはそもそも気付けない状態だった。
+
+プロテインの検品ないのめっちゃ怖いですよね？
+それと同じことが起こっている状況でした。
+-->
 
 ---
 layout: center
@@ -276,6 +277,7 @@ transition: fade-in
 layout: center
 title: 導入結果②
 ---
+
 <h3 class="font-bold mb-5 text-center">②自動化</h3>
 
 <div>
@@ -289,6 +291,11 @@ title: 導入結果②
 </div>
 
 <h2 v-after class="text-center font-bold strong">8分</h2>
+
+<!--
+リリースの準備をするだけで自動でテストが実行される。
+ここでのポイントは、「作業をしてリリースの準備をするだけ」というところです。新しくシステムを導入したのですが、エンジニア自体は以前とやることが変わっていないのです。システムを導入しつつも、エンジニアの作業工程を増やさないといところ工夫しました。
+-->
 
 ---
 layout: default
@@ -305,6 +312,9 @@ title: 導入結果②
   <li v-click class="pb-4 text-2xl">レバレッジのLP法務チェック100本</li>
 </ul>
 
+<!--
+システムを導入しつつ、自動化により、大幅に時間を短縮しました。
+-->
 
 ---
 layout: default
@@ -328,11 +338,24 @@ src: "./pages/title04.md"
 ---
 
 ---
-layout: center
+layout: two-cols-header
 title: 苦労したこと
 ---
 
+<h2 class="mt-10 text-center font-bold">ゼロベースからのスタート</h2>
 
+::left::
+
+<img src="/images/jest.png" class="w-700 h-100" alt="Jest本の画像" />
+
+::right::
+
+<img src="/images/frontend-test.png" class="w-100 h-100" alt="フロントエンドテストの画像" />
+
+
+<!--
+ここでのセロとはセロから構築した、と言う点と、あと自分自身がテストに関する知識がなかったのでゼロベースからキャッチアップをしたという点やチーム全体でテストに関する知見がなかった点も含まれます。
+-->
 
 ---
 layout: end
