@@ -324,12 +324,9 @@ title: 導入まとめ
 
 <h2 class="mt-10 text-center font-bold">導入まとめ</h2>
 
-<ul class="mt-15 w-2/4 m-auto">
-  <li v-click class="pb-4 text-2xl">バグを検知できる仕組みができた</li>
-  <li v-click class="pb-4 text-2xl">リリース前に事前にわかるようになった。</li>
-  <li v-click class="pb-4 text-2xl">本番反映時の可能性が減った。</li>
-  <li v-click class="pb-4 text-2xl">開発者は工数が増えずにできるように</li>
-  <li v-click class="text-2xl">自動化したことで必ずリリース前にテストを実行できるようになった</li>
+<ul class="mt-15 w-2/3 m-auto">
+  <li v-click class="pb-4 text-2xl">リリース前にバグを検知できるようになった。</li>
+  <li v-click class="text-2xl">開発者が安心してコードが書けるようになった。</li>
 </ul>
 
 
@@ -350,7 +347,7 @@ title: 苦労したこと
 
 ::right::
 
-<img src="/images/frontend-test.png" class="w-100 h-100" alt="フロントエンドテストの画像" />
+<img src="/images/frontend-test.png" class="w-70 h-100" alt="フロントエンドテストの画像" />
 
 
 <!--
