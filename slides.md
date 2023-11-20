@@ -156,7 +156,11 @@ src: "./pages/title02.md"
 title: テストの紹介
 ---
 
-<h2 class="text-center font-bold">お問い合わせフォーム</h2>
+<h2 class="text-center font-bold mb-30">お問い合わせフォーム</h2>
+
+<video controls width="500" class="mx-auto">
+  <source src="/videos/contact.mp4" type="video/mp4"  />
+</video>
 
 ---
 title: テストの紹介
