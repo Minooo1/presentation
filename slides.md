@@ -347,7 +347,7 @@ title: 苦労したこと
 
 ::left::
 
-<img src="/images/jest.png" class="w-700 h-100" alt="Jest本の画像" />
+<img src="/images/jest.png" class="w-4/5 h-3/5" alt="Jest本の画像" />
 
 ::right::
 
