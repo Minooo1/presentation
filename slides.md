@@ -1,6 +1,7 @@
 ---
 theme: default
-layout: cover
+layout: image
+image: "/images/slide-top.png"
 colorSchema: dark
 highlighter: shiki
 lineNumbers: false
@@ -13,50 +14,6 @@ mdc: true
 transition: slide-left
 canvasWidth: 1200
 ---
-
-<h1 class="strong">Adventure Cup</h1>
-
----
-title: 自己紹介
-layout: default
----
-
-<div class="slidev-layout two-columns w-full h-full grid grid-cols-2 items-center">
-  <div class="pl-30">
-    <img src="/images/intro.png" class="rounded-full w-80 h-80 border-4 image" alt="自己紹介用の画像" />
-  </div>
-
-  <div class="flex flex-col justify-between">
-    <div class="mb-4">
-      <p class="text-5xl font-bold pb-2">美野佑太</p>
-      <p class="mb-2">Yuta Mino</p>
-    </div>
-    <ul>
-      <li class="mb-1.5 list-none	">
-        <carbon-login />
-        <span class="ml-2">2023年5月1日入社</span>
-      </li>
-      <li class="mb-1.5 list-none	">
-        <carbon-building />
-        <span class="ml-2">福岡オフィス</span>
-      </li>
-      <li class="mb-1.5 list-none	">
-        <carbon-events-alt />
-        <span class="ml-2">開発部 開発課 WEBチーム</span>
-      </li>
-      <li class="mb-1.5 list-none	">
-        <carbon-laptop />
-        <span class="ml-2">エンジニア</span>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<style>
-.image {
-  border-color: #56ffff;
-}
-</style>
 
 ---
 src: "./pages/start.md"
@@ -332,31 +289,6 @@ title: 導入まとめ
   <li v-click class="pb-4 text-2xl">リリース前にバグを検知できるようになった。</li>
   <li v-click class="text-2xl">開発者が安心してコードが書けるようになった。</li>
 </ul>
-
-
----
-src: "./pages/title04.md"
----
-
----
-layout: two-cols-header
-title: 苦労したこと
----
-
-<h2 class="mt-10 text-center font-bold">ゼロベースからのスタート</h2>
-
-::left::
-
-<img src="/images/jest.png" class="w-4/5 h-3/5" alt="Jest本の画像" />
-
-::right::
-
-<img src="/images/frontend-test.png" class="w-70 h-100" alt="フロントエンドテストの画像" />
-
-
-<!--
-ここでのセロとはセロから構築した、と言う点と、あと自分自身がテストに関する知識がなかったのでゼロベースからキャッチアップをしたという点やチーム全体でテストに関する知見がなかった点も含まれます。
--->
 
 ---
 layout: end
