@@ -111,6 +111,7 @@ transition: fade-in
 ---
 layout: center
 title: テストの導入
+transition: fade-in
 ---
 
 <h4 class="font-bold mb-10 text-center">導入後</h4>
@@ -163,6 +164,22 @@ title: テストの自動化
 </div>
 
 <h3 v-after class="text-center font-bold strong">8分</h3>
+
+---
+layout: center
+transition: fade-in
+title: テストの自動化
+---
+
+<h3 class="mb-30 text-center strong">1000分</h3>
+
+<ul class="mt-10 table text-left m-auto">
+  <li v-click class="pb-4 text-3xl"><span class="strong">0.1人月</span>のシステム構築</li>
+  <li v-click class="pb-4 text-3xl">法務チェック<span class="strong">200本</span></li>
+  <li v-click class="pb-4 text-3xl">YouTube投稿<span class="strong">100本</span></li>
+  <li v-click class="text-3xl">約16時間40分</li>
+</ul>
+
 
 ---
 src: "./pages/title03.md"
