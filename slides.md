@@ -205,7 +205,7 @@ layout: center
 
 <!-- TODO: 動画差し替え -->
 <video controls width="500" class="mx-auto">
-  <source src="/videos/contact.mp4" type="video/mp4" />
+  <source src="/videos/ui-test.mp4" type="video/mp4" />
 </video>
 
 ---
