@@ -21,21 +21,22 @@ src: "./pages/start.md"
 
 ---
 layout: center
-transition: fade-in
 ---
 
-<div class="flex justify-center">
-  <div class="text-center flex items-center">
-    <p class="text-7xl font-bold">0</p>
-  </div>
+<h2 class="text-center font-bold">伝えたいこと</h2>
 
-  <div class="slidev-vclick-target flex ml-10">
-    <mdi-arrow-right-bold class="h-30 w-30" />
-    <div class="flex flex-col justify-center ml-10">
-      <p class="text-9xl font-bold strong">1</p>
-    </div>
-  </div>
-</div>
+<ul class="mt-30 w-2/3 m-auto">
+  <li v-click class="pb-4 text-5xl font-bold"><span class="strong">テスト</span>の導入</li>
+  <li v-click class="pb-4 text-5xl font-bold">テストの<span class="strong">自動化</span></li>
+</ul>
+
+<!--
+1. テストという防御する役割のシステムを導入したこと
+2. そして導入したテストを自動化したこと
+
+対象はコーポレートサイト。
+それを前提で進めさせていただきます。
+-->
 
 ---
 src: "./pages/title01.md"
@@ -44,75 +45,33 @@ src: "./pages/title01.md"
 ---
 layout: center
 transition: fade-in
-title: 自動テストの導入
+title: テストの導入
 ---
 
-<h2 class="text-center font-bold">他の業務で例えてみる</h2>
+<h3 class="text-center font-bold">テスト</h3>
 
-<ul class="mt-20 w-4/5 m-auto">
-  <li v-click class="pb-4 text-2xl">プロテインの検品がなかったら？</li>
-  <!-- どういうダブルチェックがあるのか知りたい。 -->
-  <li v-click class="pb-4 text-2xl">LP / ECサイトの法務チェックがなかったら？</li>
-  <li v-click class="pb-4 text-2xl">YouTubeのチェックがなかったら？</li>
-  <!-- <li v-click class="pb-4 text-2xl">デザイン</li>
-  <li v-click class="text-2xl">保守性を高めるもの</li> -->
+<ul class="mt-20 w-1/2 m-auto">
+  <li v-click class="pb-4 text-2xl">LP / SNS / YouTube の法務チェック</li>
+  <li v-click class="pb-4 text-2xl">トレーニングアイテムの検品</li>
+  <li v-click class="pb-4 text-2xl">プロテインの検品</li>
+  <li v-click class="pb-4 text-2xl">アパレルの検品</li>
 </ul>
 
+<div class="text-center mb-2">
+  <mdi-arrow-down-bold v-click class="h-30 w-30" />
+</div>
+
+<h3 v-after class="text-center font-bold strong">会社の信頼を守る重要な工程</h3>
 
 ---
 layout: center
-title: 自動テストの導入
+title: テストの導入
 transition: fade-in
 ---
 
-<h4 class="font-bold mb-5">全体構成</h4>
-
-<img src="/images/composition.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
-
----
-layout: center
-title: 自動テストの導入
----
-
-<h4 class="font-bold mb-5">全体構成</h4>
-
-<img src="/images/composition-auto.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
-
----
-src: "./pages/title02.md"
----
-
----
-title: テストの紹介
----
-
-<h2 class="text-center font-bold mb-30">お問い合わせフォーム</h2>
-
-<video controls width="500" class="mx-auto">
-  <source src="/videos/contact.mp4" type="video/mp4"  />
-</video>
-
----
-title: テストの紹介
----
-
-<h2 class="text-center font-bold">UIテスト</h2>
-
----
-src: "./pages/title03.md"
----
-
----
-layout: center
-title: 導入結果①
-transition: fade-in
----
-
-<h3 class="font-bold mb-5 text-center">①バグの検知</h3>
+<h4 class="font-bold mb-10 text-center">導入前</h4>
 
 <div v-click>
-  <h4 class="text-left font-bold mb-5">導入前</h4>
-
   <img src="/images/cs-top.png" class="block aspect-auto h-4/5" alt="自動テストを導入する前の構成" />
 </div>
 
@@ -120,7 +79,7 @@ transition: fade-in
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-after class="text-center font-bold strong" >検知する仕組みがなかった</h2>
+<h3 v-after class="text-center font-bold strong" >検知する仕組みがなかった</h3>
 
 <!--
 以前の構成はそもそもテストなかった。
@@ -134,14 +93,12 @@ transition: fade-in
 
 ---
 layout: center
-title: 導入結果①
+title: テストの導入
 transition: fade-in
 ---
-<h3 class="font-bold mb-5 text-center">①バグの検知</h3>
+<h4 class="font-bold mb-10 text-center">導入前</h4>
 
 <div>
-  <h4 class="text-left font-bold mb-5">導入前</h4>
-
   <img src="/images/cs-top.png" class="block aspect-auto h-4/5" alt="自動テストを導入する前の構成" />
 </div>
 
@@ -149,17 +106,16 @@ transition: fade-in
   <mdi-arrow-down-bold class="h-30 w-30" />
 </div>
 
-<h2 v-click class="text-center font-bold strong" >ぶっつけ本番リリース</h2>
+<h3 v-click class="text-center font-bold strong" >ぶっつけ本番リリース</h3>
 
 ---
 layout: center
-title: 導入結果①
+title: テストの導入
 ---
-<h3 class="font-bold mb-5 text-center">①バグの検知</h3>
+
+<h4 class="font-bold mb-10 text-center">導入後</h4>
 
 <div>
-  <h4 class="text-left font-bold mb-5">導入後</h4>
-
   <img src="/images/composition-test.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
 </div>
 
@@ -167,18 +123,21 @@ title: 導入結果①
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-after class="text-center font-bold strong">バグを検知できる仕組み</h2>
+<h3 v-after class="text-center font-bold strong">バグを検知できる仕組み</h3>
+
+---
+src: "./pages/title02.md"
+---
+
 
 ---
 layout: center
-title: 導入結果②
-transition: fade-in
+title: テストの自動化
 ---
-<h3 class="font-bold mb-5 text-center">②自動化</h3>
+
+<h4 class="font-bold mb-10 text-center">手動の場合</h4>
 
 <div v-click>
-  <h4 class="text-left font-bold mb-5">手動</h4>
-
   <img src="/images/composition-manual.png" class="w-full h-full" alt="今回導入したテストの構成の手動バージョン" />
 </div>
 
@@ -186,81 +145,68 @@ transition: fade-in
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-after class="text-center font-bold strong">1000分</h2>
+<h3 v-after class="text-center font-bold strong">1000分</h3>
 
 ---
 layout: center
-title: 導入結果②
-transition: fade-in
+title: テストの自動化
 ---
-<h3 class="font-bold mb-5 text-center">②自動化</h3>
+
+<h4 class="font-bold mb-10 text-center">自動化</h4>
 
 <div>
-  <h4 class="text-left font-bold mb-5">自動</h4>
-
   <img src="/images/composition-auto.png" class="w-full h-full" alt="今回導入したテストの構成" />
-</div>
-
-<div class="opacity-0">
-  <mdi-arrow-down-bold class="h-30 w-30" />
-</div>
-
-<h2 class="opacity-0">8分</h2>
-
----
-layout: center
-title: 導入結果②
----
-
-<h3 class="font-bold mb-5 text-center">②自動化</h3>
-
-<div>
-  <h4 class="text-left font-bold mb-5">自動</h4>
-
-  <img src="/images/composition-release.png" class="w-full h-full" alt="今回導入したテストの構成" />
 </div>
 
 <div class="text-center">
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h2 v-after class="text-center font-bold strong">8分</h2>
-
-<!--
-リリースの準備をするだけで自動でテストが実行される。
-ここでのポイントは、「作業をしてリリースの準備をするだけ」というところです。新しくシステムを導入したのですが、エンジニア自体は以前とやることが変わっていないのです。システムを導入しつつも、エンジニアの作業工程を増やさないといところ工夫しました。
--->
+<h3 v-after class="text-center font-bold strong">8分</h3>
 
 ---
-layout: default
-title: 導入結果②
+src: "./pages/title03.md"
 ---
 
-<h2 class="font-bold mt-10 text-center">1000分</h2>
+---
+title: テストの紹介
+layout: center
+---
 
-<!-- TODO: もう少し正規な値を入れたい -->
-<ul class="mt-20 w-2/4 m-auto">
-  <li v-click class="pb-4 text-2xl">約16時間40分</li>
-  <li v-click class="pb-4 text-2xl">レバレッジの営業の架電200件</li>
-  <li v-click class="pb-4 text-2xl">レバレッジの動画作成100本</li>
-  <li v-click class="pb-4 text-2xl">レバレッジのLP法務チェック100本</li>
-</ul>
+<h3 class="text-center font-bold mb-30">お問い合わせフォーム</h3>
 
-<!--
-システムを導入しつつ、自動化により、大幅に時間を短縮しました。
--->
+<video controls width="500" class="mx-auto">
+  <source src="/videos/contact.mp4" type="video/mp4" />
+</video>
 
 ---
-layout: default
+title: テストの紹介
+layout: center
+---
+
+<h3 class="text-center font-bold mb-30">UIテスト</h3>
+
+<!-- TODO: 動画差し替え -->
+<video controls width="500" class="mx-auto">
+  <source src="/videos/contact.mp4" type="video/mp4" />
+</video>
+
+---
+src: "./pages/title04.md"
+---
+
+---
+layout: center
 transition: fade-in
-title: 導入まとめ
+title: 導入結果
 ---
 
-<h2 class="mt-10 text-center font-bold">導入まとめ</h2>
+<h3 class="mb-30 text-center font-bold">導入結果</h3>
 
-<ul class="mt-15 w-2/3 m-auto">
-  <li v-click class="pb-4 text-2xl">リリース前にバグを検知できるようになった。</li>
-  <li v-click class="text-2xl">開発者が安心してコードが書けるようになった。</li>
+<ul class="mt-15 w-4/5 m-auto">
+  <li v-click class="pb-4 text-2xl">自動化したことで必ずリリース前にテストが実行できるようになった</li>
+  <li v-click class="pb-4 text-2xl">リリース前にバグの検知ができるようになった</li>
+  <li v-click class="text-2xl">品質を担保した状態でのリリースが可能になった</li>
 </ul>
 
 ---

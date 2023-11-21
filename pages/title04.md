@@ -2,7 +2,7 @@
 layout: cover
 ---
 <div class="flex items-center">
-  <h1>苦労したこと</h1>
+  <h1>導入結果</h1>
 </div>
 
 <style>
