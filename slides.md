@@ -72,7 +72,7 @@ transition: fade-in
 <h4 class="font-bold mb-10 text-center">導入前</h4>
 
 <div v-click>
-  <img src="/images/cs-top.png" class="block aspect-auto h-4/5" alt="自動テストを導入する前の構成" />
+  <img src="/images/cs-top.png" class="block aspect-auto h-4/5" alt="自動テストを導入する前のリリースフロー" />
 </div>
 
 <div class="text-center">
@@ -99,7 +99,7 @@ transition: fade-in
 <h4 class="font-bold mb-10 text-center">導入前</h4>
 
 <div>
-  <img src="/images/cs-top.png" class="block aspect-auto h-4/5" alt="自動テストを導入する前の構成" />
+  <img src="/images/cs-top.png" class="block aspect-auto h-4/5" alt="自動テストを導入する前のリリースフロー" />
 </div>
 
 <div class="text-center">
@@ -117,7 +117,7 @@ transition: fade-in
 <h4 class="font-bold mb-10 text-center">導入後</h4>
 
 <div>
-  <img src="/images/composition-test.png" class="w-full h-full" alt="今回導入したシステムの構成画像" />
+  <img src="/images/composition-test.png" class="w-full h-full" alt="今回導入したシステム後のリリースフロー" />
 </div>
 
 <div class="text-center">
@@ -156,7 +156,7 @@ title: テストの自動化
 <h4 class="font-bold mb-10 text-center">自動化</h4>
 
 <div>
-  <img src="/images/composition-auto.png" class="w-full h-full" alt="今回導入したテストの構成" />
+  <img src="/images/composition-auto.png" class="w-full h-full" alt="今回導入したテストの構成で自動化した部分" />
 </div>
 
 <div class="text-center">
@@ -203,7 +203,6 @@ layout: center
 
 <h3 class="text-center font-bold mb-30">UIテスト</h3>
 
-<!-- TODO: 動画差し替え -->
 <video controls width="500" class="mx-auto">
   <source src="/videos/ui-test.mp4" type="video/mp4" />
 </video>
