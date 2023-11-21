@@ -25,7 +25,7 @@ layout: center
 
 <h2 class="text-center font-bold">伝えたいこと</h2>
 
-<ul class="mt-30 w-10/12 mx-auto">
+<ul class="mt-30 table text-left mx-auto">
   <li v-click class="pb-4 text-5xl font-bold"><span class="strong">テスト</span>の導入</li>
   <li v-click class="pb-4 text-5xl font-bold">テストの<span class="strong">自動化</span></li>
 </ul>
@@ -50,11 +50,11 @@ title: テストの導入
 
 <h3 class="text-center font-bold">テスト</h3>
 
-<ul class="mt-20 w-10/12 mx-auto">
-  <li v-click class="pb-4 text-2xl">LP / SNS / YouTube の法務チェック</li>
-  <li v-click class="pb-4 text-2xl">トレーニングアイテムの検品</li>
-  <li v-click class="pb-4 text-2xl">プロテインの検品</li>
-  <li v-click class="pb-4 text-2xl">アパレルの検品</li>
+<ul class="mt-20 table text-left mx-auto">
+  <li v-click class="pb-4 text-3xl">LP / SNS / YouTube の法務チェック</li>
+  <li v-click class="pb-4 text-3xl">トレーニングアイテムの検品</li>
+  <li v-click class="pb-4 text-3xl">プロテインの検品</li>
+  <li v-click class="pb-4 text-3xl">アパレルの検品</li>
 </ul>
 
 <div class="text-center mb-2">
@@ -203,7 +203,7 @@ title: 導入結果
 
 <h3 class="mb-30 text-center font-bold">導入結果</h3>
 
-<ul class="mt-10 w-4/5 m-auto">
+<ul class="mt-10 table text-left m-auto">
   <li v-click class="pb-4 text-2xl">自動化したことで必ずリリース前にテストが実行される仕組み</li>
   <li v-click class="pb-4 text-2xl">リリース前にバグの検知できる仕組み</li>
   <li v-click class="text-2xl">品質を担保した状態でのリリースが可能</li>
