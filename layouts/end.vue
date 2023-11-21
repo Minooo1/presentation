@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="end-title strong">END</h1>
+    <img src="/images/end.png" alt="スライド終了の画像">
   </div>
 </template>
 
@@ -10,7 +10,4 @@
   place-items: center;
 }
 
-.end-title {
-  font-size: 3.2vw;
-}
 </style>

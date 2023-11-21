@@ -43,33 +43,6 @@ src: "./pages/title01.md"
 
 ---
 layout: center
-title: 自動テストの導入
----
-
-<h2 class="text-center font-bold">テストとは？</h2>
-
-<ul class="mt-15 w-3/4 m-auto">
-  <li v-click class="pb-4 text-2xl">バグや不具合等を検知するもの</li>
-  <li v-click class="pb-4 text-2xl">サイトの品質を担保するもの</li>
-  <li v-click class="text-2xl">プログラムの保守性を高めるもの</li>
-</ul>
-
-<div class="text-center my-5">
-  <mdi-arrow-down-bold v-click class="h-30 w-30" />
-</div>
-
-<h2 v-click class="text-center font-bold strong">開発における重要な工程</h2>
-
-<!--
-1. バグを含めてリリースしてしまうと、会社や事業への信頼を失ってしまう。最近だと銀行のシステムなど。
-
-2.テストに合格してリリースすることで一定の品質を担保した状態になる。
-
-3.保守性とは、書いたプログラムがメンテナンスしやすいかどうか。エンジニアの視点。
--->
-
----
-layout: center
 transition: fade-in
 title: 自動テストの導入
 ---
