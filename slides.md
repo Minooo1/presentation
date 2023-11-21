@@ -221,9 +221,9 @@ title: 導入結果
 <h3 class="mb-30 text-center font-bold">導入結果</h3>
 
 <ul class="mt-10 table text-left m-auto">
-  <li v-click class="pb-4 text-2xl">自動化したことで必ずリリース前にテストが実行される仕組み</li>
-  <li v-click class="pb-4 text-2xl">リリース前にバグの検知できる仕組み</li>
-  <li v-click class="text-2xl">品質を担保した状態でのリリースが可能</li>
+  <li v-click class="pb-4 text-3xl">自動化したことで必ずリリース前にテストが実行される仕組み</li>
+  <li v-click class="pb-4 text-3xl">リリース前にバグの検知できる仕組み</li>
+  <li v-click class="text-3xl">品質を担保した状態でのリリースが可能</li>
 </ul>
 
 ---
