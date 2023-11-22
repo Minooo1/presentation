@@ -51,10 +51,10 @@ title: テストの導入
 <h3 class="text-center font-bold">テスト</h3>
 
 <ul class="mt-20 table text-left mx-auto">
+  <li v-click class="pb-4 text-3xl">プロテイン / トレーニング商品 / アパレルの検品</li>
   <li v-click class="pb-4 text-3xl">LP / SNS / YouTube の法務チェック</li>
-  <li v-click class="pb-4 text-3xl">トレーニングアイテムの検品</li>
-  <li v-click class="pb-4 text-3xl">プロテインの検品</li>
-  <li v-click class="pb-4 text-3xl">アパレルの検品</li>
+  <li v-click class="pb-4 text-3xl">インフラの負荷テスト</li>
+  <li v-click class="text-3xl">個人情報の保護</li>
 </ul>
 
 <div class="text-center mb-2">
@@ -130,6 +130,45 @@ transition: fade-in
 src: "./pages/title02.md"
 ---
 
+---
+title: テストの紹介
+layout: center
+---
+
+<h3 class="text-center font-bold mb-30">お問い合わせフォーム</h3>
+
+<ul class="mt-10 table text-left m-auto">
+  <li v-click class="pb-4 text-3xl">入力欄の入力チェックができているか</li>
+  <li v-click class="pb-4 text-3xl">送信エラーになった場合の挙動</li>
+  <li v-click class="pb-4 text-3xl">正常にメールが送れるか</li>
+</ul>
+
+<!-- <video controls width="500" class="mx-auto">
+  <source src="/videos/contact.mp4" type="video/mp4" />
+</video> -->
+
+---
+title: テストの紹介
+layout: center
+---
+
+<h3 class="text-center font-bold mb-20">UIテスト</h3>
+
+<ul class="mt-10 table text-left m-auto">
+  <li v-click class="pb-4 text-3xl">修正前と修正後の見た目の差分を確認するテスト</li>
+  <li v-click class="pb-4 text-3xl">意図していない見た目の差分が出ていないか</li>
+</ul>
+
+
+<!--
+Report URL: https://lev-corporate-vrt-screenshots.s3.amazonaws.com/d9046f8f8e1825dee55f8b68c18e0f14719f8b57/index.html
+
+PR URL: https://github.com/Leverage-Inc/leverage-inc-v2/pull/511
+ -->
+
+---
+src: "./pages/title03.md"
+---
 
 ---
 layout: center
@@ -179,33 +218,6 @@ title: テストの自動化
   <li v-click class="pb-4 text-3xl">YouTube投稿<span class="strong">100本</span></li>
   <li v-click class="text-3xl">約16時間40分</li>
 </ul>
-
-
----
-src: "./pages/title03.md"
----
-
----
-title: テストの紹介
-layout: center
----
-
-<h3 class="text-center font-bold mb-30">お問い合わせフォーム</h3>
-
-<video controls width="500" class="mx-auto">
-  <source src="/videos/contact.mp4" type="video/mp4" />
-</video>
-
----
-title: テストの紹介
-layout: center
----
-
-<h3 class="text-center font-bold mb-30">UIテスト</h3>
-
-<video controls width="500" class="mx-auto">
-  <source src="/videos/ui-test.mp4" type="video/mp4" />
-</video>
 
 ---
 src: "./pages/title04.md"

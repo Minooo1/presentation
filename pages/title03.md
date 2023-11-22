@@ -2,7 +2,7 @@
 layout: cover
 ---
 <div class="flex items-center">
-  <h1>テストの紹介</h1>
+  <h1>テストの自動化</h1>
 </div>
 
 <style>
