@@ -132,6 +132,7 @@ src: "./pages/title02.md"
 ---
 title: テストの紹介
 layout: center
+clicks: 4
 ---
 
 <h3 class="text-center font-bold mb-30">お問い合わせフォーム</h3>
@@ -141,8 +142,6 @@ layout: center
   <li v-click class="pb-4 text-3xl">送信エラーになった場合の挙動</li>
   <li v-click class="pb-4 text-3xl" :style="$clicks === 4 ? 'color: #56ffff;' : ''">正常にメールが送れるか</li>
 </ul>
-
-<div v-click />
 
 <!--
 もしエラーに引っかからないように入力して送信した場合は、正常にメールが送信できることを確認するテスト。
