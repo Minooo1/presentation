@@ -51,9 +51,9 @@ title: テストの導入
 <h3 class="text-center font-bold">テスト</h3>
 
 <ul class="mt-20 table text-left mx-auto">
-  <li v-click class="pb-4 text-3xl">プロテイン / トレーニング商品 / アパレルの検品</li>
+  <li v-click class="pb-4 text-3xl">プロテイン / トレーニンググッズ / アパレルの検品</li>
   <li v-click class="pb-4 text-3xl">LP / SNS / YouTube の法務チェック</li>
-  <li v-click class="pb-4 text-3xl">インフラの負荷テスト</li>
+  <li v-click class="pb-4 text-3xl">サーバーの負荷テスト</li>
 </ul>
 
 <div class="text-center mb-2">
@@ -204,20 +204,6 @@ title: テストの自動化
 <h3 v-after class="text-center font-bold strong">8分</h3>
 
 ---
-layout: center
-transition: fade-in
-title: テストの自動化
----
-
-<h3 class="mb-20 text-center strong">1000分</h3>
-
-<ul class="mt-10 table text-left m-auto">
-  <li v-click class="pb-4 text-3xl">約16時間40分</li>
-  <li v-click class="pb-4 text-3xl"><span class="strong">0.1人月</span>のシステム構築</li>
-  <li v-click class="pb-4 text-3xl">1時間の筋トレセッションを<span class="strong">2週間</span></li>
-</ul>
-
----
 src: "./pages/title04.md"
 ---
 
@@ -227,12 +213,36 @@ transition: fade-in
 title: 導入結果
 ---
 
-<h3 class="mb-30 text-center font-bold">導入結果</h3>
+<h3 class="mb-10 text-center font-bold">テストの導入</h3>
 
-<ul class="mt-10 table text-left m-auto">
-  <li v-click class="pb-4 text-3xl">自動化したことで必ずリリース前にテストが実行される仕組み</li>
-  <li v-click class="pb-4 text-3xl">リリース前にバグの検知できる仕組み</li>
-  <li v-click class="text-3xl">品質を担保した状態でのリリースが可能</li>
+<ul class="mt-20 table text-left mx-auto">
+  <li v-click class="pb-4 text-3xl" :style="$clicks > 3 ? 'text-decoration: line-through;' : ''">ページの一部分が表示されていない</li>
+  <li v-click class="pb-4 text-3xl" :style="$clicks > 3 ? 'text-decoration: line-through;' : ''">ページの見た目が崩れている</li>
+  <li v-click class="pb-4 text-3xl" :style="$clicks > 3 ? 'text-decoration: line-through;' : ''">メールが届かない</li>
+</ul>
+
+<div class="text-center mb-2">
+  <mdi-arrow-down-bold v-click class="h-30 w-30" />
+</div>
+
+<h3 v-after class="text-center font-bold strong"><mdi-checkbox-marked class="h-1/13 w-1/13" />会社の信頼を失わない仕組み</h3>
+
+<!--
+導入する前にはこのような仕組みがなかったため、いつバグや不具合が発生してもおかしくない状況でしたが、
+導入後はリリース前にバグや不具合を検知できるようになった。
+-->
+
+---
+layout: center
+transition: fade-in
+title: 導入結果
+---
+
+<h3 class="mb-10 text-center font-bold">テストの自動化</h3>
+
+<ul class="mt-20 table text-left mx-auto">
+  <li v-click class="pb-4 text-3xl">必ずリリース前にテストが実行できる</li>
+  <li v-click class="pb-4 text-3xl">開発者の手間が増えない</li>
 </ul>
 
 ---

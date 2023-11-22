@@ -6,6 +6,7 @@
     "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export",
+    "export-dark": "slidev export --dark",
     "start": "npx vite preview"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.55",
     "markdownlint": "^0.31.1",
-    "markdownlint-cli": "^0.37.0"
+    "markdownlint-cli": "^0.37.0",
+    "playwright-chromium": "^1.40.0"
   }
 }
