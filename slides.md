@@ -54,7 +54,6 @@ title: テストの導入
   <li v-click class="pb-4 text-3xl">プロテイン / トレーニング商品 / アパレルの検品</li>
   <li v-click class="pb-4 text-3xl">LP / SNS / YouTube の法務チェック</li>
   <li v-click class="pb-4 text-3xl">インフラの負荷テスト</li>
-  <li v-click class="text-3xl">個人情報の保護</li>
 </ul>
 
 <div class="text-center mb-2">
@@ -210,13 +209,12 @@ transition: fade-in
 title: テストの自動化
 ---
 
-<h3 class="mb-30 text-center strong">1000分</h3>
+<h3 class="mb-20 text-center strong">1000分</h3>
 
 <ul class="mt-10 table text-left m-auto">
+  <li v-click class="pb-4 text-3xl">約16時間40分</li>
   <li v-click class="pb-4 text-3xl"><span class="strong">0.1人月</span>のシステム構築</li>
-  <li v-click class="pb-4 text-3xl">法務チェック<span class="strong">200本</span></li>
-  <li v-click class="pb-4 text-3xl">YouTube投稿<span class="strong">100本</span></li>
-  <li v-click class="text-3xl">約16時間40分</li>
+  <li v-click class="pb-4 text-3xl">1時間の筋トレセッションを<span class="strong">2週間</span></li>
 </ul>
 
 ---
