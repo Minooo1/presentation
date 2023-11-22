@@ -171,6 +171,15 @@ layout: center
   <li v-click class="pb-4 text-3xl">意図していない見た目の差分が出ていないか</li>
 </ul>
 
+---
+layout: default
+---
+
+<iframe id="iframe" title="reg-suit が出力したレポートの URL" src="https://lev-corporate-vrt-screenshots.s3.amazonaws.com/d9046f8f8e1825dee55f8b68c18e0f14719f8b57/index.html" width="100%" height="100%" allow="fullscreen"></iframe>
+
+<OpenFullScreenButton />
+
+
 
 <!--
 Report URL: https://lev-corporate-vrt-screenshots.s3.amazonaws.com/d9046f8f8e1825dee55f8b68c18e0f14719f8b57/index.html
