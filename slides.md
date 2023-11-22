@@ -139,12 +139,26 @@ layout: center
 <ul class="mt-10 table text-left m-auto">
   <li v-click class="pb-4 text-3xl">入力欄の入力チェックができているか</li>
   <li v-click class="pb-4 text-3xl">送信エラーになった場合の挙動</li>
-  <li v-click class="pb-4 text-3xl">正常にメールが送れるか</li>
+  <li v-click class="pb-4 text-3xl" :style="$clicks === 4 ? 'color: #56ffff;' : ''">正常にメールが送れるか</li>
 </ul>
 
-<!-- <video controls width="500" class="mx-auto">
+<div v-click />
+
+<!--
+もしエラーに引っかからないように入力して送信した場合は、正常にメールが送信できることを確認するテスト。
+もちろん他にもわざと入力欄を空欄のまま送信させるようなテストを実行したりもしています。
+-->
+
+---
+title: テストの紹介
+layout: center
+---
+
+<h3 class="text-center font-bold mb-30">お問い合わせフォーム</h3>
+
+<video controls width="500" class="mx-auto">
   <source src="/videos/contact.mp4" type="video/mp4" />
-</video> -->
+</video>
 
 ---
 title: テストの紹介
@@ -202,6 +216,10 @@ title: テストの自動化
 </div>
 
 <h3 v-after class="text-center font-bold strong">8分</h3>
+
+<!--
+自動化のところだけ動画見せる。
+-->
 
 ---
 src: "./pages/title04.md"
