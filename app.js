@@ -6,14 +6,14 @@ import path from "node:path";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const USER_NAME = process.env.USER_NAME || 'admin'; // プロジェクトの環境変数を設定していた場合はそちらを適用させる
-const PASSWORD = process.env.PASSWORD || 'admin';
+const USER_NAME = process.env.USER_NAME;
+const PASSWORD = process.env.PASSWORD;
 
 const app = protect(
   '/',
-  (username, password) => safeCompare(username, USER_NAME) && safeCompare(password, PASSWORD), // timing attack 対策
+  (username, password) => safeCompare(username, USER_NAME) && safeCompare(password, PASSWORD),
   {
-    directory: `${__dirname}/dist`, // public 配下のファイルを静的コンテンツとして配信する
+    directory: `${__dirname}/dist`,
     onAuthFailed: (res) => {
       res.end('Authentication failed')
     },

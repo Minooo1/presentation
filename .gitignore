@@ -6,3 +6,4 @@ dist
 components.d.ts
 *.pdf
 .vercel
+*.env
