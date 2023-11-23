@@ -6,8 +6,8 @@ import path from "node:path";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const USER_NAME = process.env.USER_NAME;
-const PASSWORD = process.env.PASSWORD;
+const USER_NAME = process.env.USER_NAME || "admin";
+const PASSWORD = process.env.PASSWORD || "admin";
 
 const app = protect(
   '/',
