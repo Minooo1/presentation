@@ -162,6 +162,7 @@ layout: center
 ---
 title: テストの紹介
 layout: center
+transition: fade-out
 ---
 
 <h3 class="text-center font-bold mb-20">UIテスト</h3>
@@ -179,11 +180,7 @@ layout: default
 
 <OpenFullScreenButton />
 
-
-
 <!--
-Report URL: https://lev-corporate-vrt-screenshots.s3.amazonaws.com/d9046f8f8e1825dee55f8b68c18e0f14719f8b57/index.html
-
 PR URL: https://github.com/Leverage-Inc/leverage-inc-v2/pull/511
  -->
 
