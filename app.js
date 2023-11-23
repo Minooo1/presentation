@@ -8,7 +8,7 @@ const app = protect(
   '/',
   (username, password) => safeCompare(username, USER_NAME) && safeCompare(password, PASSWORD),
   {
-    directory: "/dist",
+    directory: `${__dirname}/dist`,
     onAuthFailed: (res) => {
       res.end('Authentication failed')
     },
