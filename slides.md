@@ -324,7 +324,7 @@ title: 導入結果
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h3 v-after class="text-center font-bold strong"><mdi-checkbox-marked class="h-1/18 w-1/18" />エンジニアも安心して開発できる仕組み</h3>
+<h3 v-after class="text-center font-bold strong"><mdi-checkbox-marked class="h-1/12 w-1/12 mr-2" />安心・安全に開発できる</h3>
 
 <!--
 1. 必ずリリース前にテストが実行できるようになることで、何かあったらリリース前に気付けるので、エンジニアとしても安心して開発をすることができる。
