@@ -1,11 +1,11 @@
 {
-  "routes": [{ "src": "/(.*)", "dest": "app.js" }],
-  "buildCommand": "npm run build",
   "builds": [
     {
       "src": "app.js",
       "use": "@vercel/node"
     }
   ],
-  "outputDirectory": "dist"
+  "routes": [
+    { "src": "/.*", "dest": "/app.js" }
+  ]
 }
