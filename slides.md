@@ -317,19 +317,28 @@ title: 導入結果
 
 <ul class="mt-20 table text-left mx-auto">
   <li v-click class="pb-4 text-3xl">必ずリリース前にテストが実行できる</li>
-  <li v-click class="pb-4 text-3xl">開発者の手間が増えない</li>
+  <li v-click class="pb-4 text-3xl">エンジニアの手間が増えない</li>
 </ul>
 
 <div class="text-center mb-2">
   <mdi-arrow-down-bold v-click class="h-30 w-30" />
 </div>
 
-<h3 v-after class="text-center font-bold strong"><mdi-checkbox-marked class="h-1/13 w-1/13" />開発者も安心安全に開発できる仕組み</h3>
+<h3 v-after class="text-center font-bold strong"><mdi-checkbox-marked class="h-1/18 w-1/18" />エンジニアも安心して開発できる仕組み</h3>
 
 <!--
-自動化したことの副産物として、システムを導入したにも関わらず、運用するためのコストが増えない。会社の信頼を守りつつ、開発者としても恩恵を受けることができた。
+1. 必ずリリース前にテストが実行できるようになることで、何かあったらリリース前に気付けるので、エンジニアとしても安心して開発をすることができる。
+
+2. いつも通りリリースの準備をするだけでテストのシステムが実行されるので手間が増えない。
+
+自動化したことで、大幅な時間の短縮はもちろんのことエンジニアとしても恩恵を受けることができた。
 -->
 
 ---
 layout: end
 ---
+
+<!--
+僕のプレゼンは以上になります。
+ご静聴ありがとうございました。
+-->
