@@ -1,5 +1,11 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "app.js" }],
+  "routes": [{ "source": "/(.*)", "dest": "app.js" }],
   "buildCommand": "npm run build",
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@vercel/node"
+    }
+  ],
   "outputDirectory": "dist"
 }
