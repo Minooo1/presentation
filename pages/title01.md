@@ -11,7 +11,3 @@ layout: cover
   background-image: url("/images/title01.png");
 }
 </style>
-
-<!--
-それでは、まず一つ目の「テストの導入」からについてお話ししていきたいと思います。
--->
