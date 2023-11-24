@@ -307,7 +307,9 @@ title: テストの自動化
 
 <h4 class="font-bold mb-10 text-center">自動化</h4>
 
-<a href="https://github.com/Minooo1/nuxt3-jest-testing/compare/fix/footer_title?expand=1">GitHub PR URL</a>
+<video controls width="500" class="mx-auto">
+  <source src="/videos/pr.mp4" type="video/mp4" />
+</video>
 
 <!--
 ではこちらも実際に自動で実行されていることを実際に見ていただきたいなと思います。
