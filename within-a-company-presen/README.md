@@ -1,11 +1,6 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)
+# 社内プレゼン大会
+2023年11月24日
 
-To start the slide show:
+前職で、仕事で取り組んだ事の成果等をプレゼンする大会の決勝で使用したスライドになります。
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
+「自動テストの導入」をプレゼンのテーマとし、20名を超える応募から予選を通過して、全社キックオフで行われた決勝に進出するも優勝はできませんでした。
