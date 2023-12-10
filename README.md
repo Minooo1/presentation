@@ -1,5 +1,11 @@
 # Welcome to [Slidev](https://github.com/slidevjs/slidev)
 
+slidev を使ったプレゼン資料置き場です。
+
+## モノレポ構成
+
+このディレクトリはモノレポ構成になっています。
+
 To start the slide show:
 
 - `npm install`
