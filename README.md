@@ -1,17 +1,10 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)
+# presentaiton
 
-slidev を使ったプレゼン資料置き場です。
-
-## モノレポ構成
+[slidev](https://sli.dev) を使ったスライド&コードを管理するためのリポジトリです。
 
 このディレクトリはモノレポ構成になっています。
 
-To start the slide show:
+## 2023
+- [社内プレゼン大会発表資料](https://github.com/Minooo1/presentation/tree/main/within-a-company-presen)
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
 
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
