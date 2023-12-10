@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.12.0",
+  "scripts": {
+    "build": "npx -y rimraf dist && pnpm -r run build"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.43.12",
+    "@slidev/theme-apple-basic": "^0.20.0",
+    "@slidev/theme-bricks": "^0.0.2",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "safe-compare": "^1.1.4",
+    "slidev-theme-geist": "^0.8.1",
+    "static-auth": "^2.1.2"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.55",
+    "@slidev/types": "^0.44.0",
+    "markdownlint": "^0.31.1",
+    "markdownlint-cli": "^0.37.0",
+    "playwright-chromium": "^1.40.0"
+  }
+}
