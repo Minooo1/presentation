@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "dependencyDashboard": false,
+  "timezone": "Asia/Tokyo",
+  "schedule": ["after 4am and before 6am"],
+  "reviewers": ["Minooo1"],
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "minor and patch dependencies"
+    }
+  ],
+  "rangeStrategy": "bump",
+  "prHourlyLimit": 0,
+  "separateMultipleMajor": true,
+  "enabledManagers": ["npm"]
+}
