@@ -3,7 +3,6 @@
   "extends": ["config:base"],
   "dependencyDashboard": false,
   "timezone": "Asia/Tokyo",
-  "schedule": ["after 4am and before 6am"],
   "reviewers": ["Minooo1"],
   "vulnerabilityAlerts": {
     "labels": ["security"]
