@@ -16,7 +16,7 @@
     "static-auth": "^2.1.2"
   },
   "devDependencies": {
-    "@iconify-json/mdi": "^1.1.62",
+    "@iconify-json/mdi": "^1.1.63",
     "@slidev/types": "^0.46.0",
     "markdownlint": "^0.32.1",
     "markdownlint-cli": "^0.38.0",
