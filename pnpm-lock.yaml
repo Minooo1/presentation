@@ -12,11 +12,11 @@ importers:
         specifier: ^0.46.3
         version: 0.46.3(@types/markdown-it@13.0.7)(playwright-chromium@1.41.2)(postcss@8.4.33)(typescript@5.3.3)
       '@slidev/theme-apple-basic':
-        specifier: ^0.20.0
-        version: 0.20.0
+        specifier: ^0.24.0
+        version: 0.24.0
       '@slidev/theme-bricks':
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: ^0.24.0
+        version: 0.24.0
       '@slidev/theme-default':
         specifier: latest
         version: 0.21.2
@@ -1104,24 +1104,24 @@ packages:
       js-yaml: 4.1.0
     dev: false
 
-  /@slidev/theme-apple-basic@0.20.0:
-    resolution: {integrity: sha512-sjgxAyn63TNHsiwT/Iz2D8IjpuOg/x8l+nG2TTH3zg8XChIo7uYcNNApWH+i5zuBfaNHHUOaGLPaZw5s6fINQg==}
+  /@slidev/theme-apple-basic@0.24.0:
+    resolution: {integrity: sha512-ZeBo0QB0H6Godk7Oh2DxBl0PSroVF3b31aQva/z+B6jWHJmZukD4gTQuyxEIVJy7xgVdGrj1wPnlwXFgdywOOQ==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
     dependencies:
-      '@slidev/types': 0.22.7
+      '@slidev/types': 0.46.3
       codemirror-theme-vars: 0.1.2
       prism-theme-vars: 0.2.4
-      theme-vitesse: 0.1.14
+      theme-vitesse: 0.7.5
     dev: false
 
-  /@slidev/theme-bricks@0.0.2:
-    resolution: {integrity: sha512-70mc2kdWuo6ZoMJiEdWScs8Ei4bRfoEGDibVQFiHqbdFd2oWmmCyfWOVwc2j6HAiECENXrsmKJfN8Tc0S4kxTQ==}
+  /@slidev/theme-bricks@0.24.0:
+    resolution: {integrity: sha512-gzzcUJDjA/Q9ycLYUmGBExUh6Bsd+EHSZZNI8Hc6H60NhMhKzdjJKYqMrc17aO2xKIJM85n/zyssemawHVEuCw==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.2'}
     dependencies:
-      '@slidev/types': 0.22.7
+      '@slidev/types': 0.46.3
       codemirror-theme-vars: 0.1.2
       prism-theme-vars: 0.2.4
-      theme-vitesse: 0.1.14
+      theme-vitesse: 0.7.5
     dev: false
 
   /@slidev/theme-default@0.21.2:
@@ -4710,6 +4710,11 @@ packages:
 
   /theme-vitesse@0.1.14:
     resolution: {integrity: sha512-b5s+Zpfaw5+djoCJ9AEbcTbpiTlLsOvGM9oblDmmWRGWNqg9oXtEYO/uwubwx77novHBI6zNuwZRHKNlAIBo4A==}
+    engines: {vscode: ^1.43.0}
+    dev: false
+
+  /theme-vitesse@0.7.5:
+    resolution: {integrity: sha512-0Bfl3u+SepyyadK5qjkWlwn6GEB0XLCgoB3Sw0Q7b38DH5wN/9Myj3yHaVzqqWsG+V9/tK85aJQhaHS2nPypow==}
     engines: {vscode: ^1.43.0}
     dev: false
 
