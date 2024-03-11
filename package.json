@@ -6,7 +6,7 @@
     "build": "npx -y rimraf dist && pnpm -r run build"
   },
   "dependencies": {
-    "@slidev/cli": "^0.47.5",
+    "@slidev/cli": "^0.48.1",
     "@slidev/theme-apple-basic": "^0.25.0",
     "@slidev/theme-bricks": "^0.25.0",
     "@slidev/theme-default": "latest",
@@ -17,9 +17,9 @@
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.64",
-    "@slidev/types": "^0.47.5",
+    "@slidev/types": "^0.48.1",
     "markdownlint": "^0.33.0",
     "markdownlint-cli": "^0.39.0",
-    "playwright-chromium": "^1.42.0"
+    "playwright-chromium": "^1.42.1"
   }
 }
