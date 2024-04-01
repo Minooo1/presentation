@@ -1,13 +1,13 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@8.15.6",
   "scripts": {
     "build": "npx -y rimraf dist && pnpm -r run build"
   },
   "dependencies": {
     "@slidev/cli": "^0.48.8",
-    "@slidev/theme-apple-basic": "^0.25.0",
+    "@slidev/theme-apple-basic": "^0.25.1",
     "@slidev/theme-bricks": "^0.25.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
