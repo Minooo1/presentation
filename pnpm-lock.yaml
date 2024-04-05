@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@slidev/cli':
         specifier: ^0.48.8
-        version: 0.48.8(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.38)
+        version: 0.48.8(@types/markdown-it@13.0.7)(playwright-chromium@1.43.0)(postcss@8.4.38)
       '@slidev/theme-apple-basic':
         specifier: ^0.25.1
         version: 0.25.1
@@ -34,8 +34,8 @@ importers:
         version: 2.1.2
     devDependencies:
       '@iconify-json/mdi':
-        specifier: ^1.1.64
-        version: 1.1.64
+        specifier: ^1.1.65
+        version: 1.1.65
       '@slidev/types':
         specifier: ^0.48.8
         version: 0.48.8(postcss@8.4.38)(typescript@5.4.3)(vite@5.2.7)
@@ -46,8 +46,8 @@ importers:
         specifier: ^0.39.0
         version: 0.39.0
       playwright-chromium:
-        specifier: ^1.42.1
-        version: 1.42.1
+        specifier: ^1.43.0
+        version: 1.43.0
 
   sample-slide/src: {}
 
@@ -760,8 +760,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
-  /@iconify-json/mdi@1.1.64:
-    resolution: {integrity: sha512-zGeo5TjhNFAY6FmSDBLAzDO811t77r6v/mDi7CAL9w5eXqKez6bIjk8R9AL/RHIeq44ALP4Ozr4lMqFTkHr7ug==}
+  /@iconify-json/mdi@1.1.65:
+    resolution: {integrity: sha512-P9ovos4pKjqwbcUaF5axnHKc1J4djfwLQ6vheJSzbTuZ7gLyonAI/mDDc+ekC4HFCnrYWPjdpkKT+mIujuqOaA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1159,7 +1159,7 @@ packages:
     dev: false
     optional: true
 
-  /@slidev/cli@0.48.8(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.38):
+  /@slidev/cli@0.48.8(@types/markdown-it@13.0.7)(playwright-chromium@1.43.0)(postcss@8.4.38):
     resolution: {integrity: sha512-cuaU5ae6KPy1tv590atRjubEeDT2BFT2Ws9LLbiMuPr+Gpu9IU9QaX8nW20goI9Ym/4v+gjPhCFOB9qtekI7xA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -1211,7 +1211,7 @@ packages:
       open: 10.1.0
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
-      playwright-chromium: 1.42.1
+      playwright-chromium: 1.43.0
       postcss-nested: 6.0.1(postcss@8.4.38)
       prismjs: 1.29.0
       prompts: 2.4.2
@@ -4440,16 +4440,16 @@ packages:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
     dev: false
 
-  /playwright-chromium@1.42.1:
-    resolution: {integrity: sha512-VelpmKJ+3G3QlAFfA9JIuEYyU8b8vQrlIPY3tIaGv+adn7mem56SP04e+zMudcxisfOT3suQOSTD1qs6YErdDg==}
+  /playwright-chromium@1.43.0:
+    resolution: {integrity: sha512-WeytzaCdiSL7NfGr6Pix/LTrnVixo5apb0q3SjgDQ9xtLYq0QCB9WanzDj2GI7DCmPEIhdCpvC2MRAjuJUUZyA==}
     engines: {node: '>=16'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.42.1
+      playwright-core: 1.43.0
 
-  /playwright-core@1.42.1:
-    resolution: {integrity: sha512-mxz6zclokgrke9p1vtdy/COWBH+eOZgYUVVU34C73M+4j4HLlQJHtfcqiqqxpP0o8HhMkflvfbquLX5dg6wlfA==}
+  /playwright-core@1.43.0:
+    resolution: {integrity: sha512-iWFjyBUH97+pUFiyTqSLd8cDMMOS0r2ZYz2qEsPjH8/bX++sbIJT35MSwKnp1r/OQBAqC5XO99xFbJ9XClhf4w==}
     engines: {node: '>=16'}
     hasBin: true
 
