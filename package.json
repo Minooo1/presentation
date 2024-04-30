@@ -19,7 +19,7 @@
     "@iconify-json/mdi": "^1.1.66",
     "@slidev/types": "^0.48.9",
     "markdownlint": "^0.34.0",
-    "markdownlint-cli": "^0.39.0",
+    "markdownlint-cli": "^0.40.0",
     "playwright-chromium": "^1.43.1"
   }
 }
