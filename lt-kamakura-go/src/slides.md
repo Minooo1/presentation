@@ -10,7 +10,6 @@ drawings:
   persist: false
 transition: slide-left
 title: kamakura.go LT発表
-download: true
 mdc: true
 layout: cover
 ---
