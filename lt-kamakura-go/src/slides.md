@@ -427,8 +427,7 @@ database "MySql" {
 
 ---
 
-src: ./pages/multiple-entries.md
-hide: false
+## slide
 
 ---
 
