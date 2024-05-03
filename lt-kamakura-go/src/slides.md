@@ -10,18 +10,20 @@ drawings:
   persist: false
 transition: slide-left
 title: kamakura.go LT発表
+download: true
 mdc: true
+layout: cover
 ---
 
-<h1>フロントエンドエンジニアの僕がバックエンドエンジニアに転向して3ヶ月たったので振り返ってみる</h1>
+# フロントエンドエンジニアの僕がバックエンドエンジニアに転向して3ヶ月たったので振り返ってみる
 
 <!-- TODO: アジェンダ -->
---- <!-- markdownlint-disable-line MD041 -->
+---
 src: "./pages/start.md"
 ---
 
 <!-- TODO: 自己紹介 -->
---- <!-- markdownlint-disable-line MD041 -->
+---
 src: "./pages/start.md"
 ---
 
@@ -30,25 +32,25 @@ src: "./pages/start.md"
 layout: center
 ---
 
-<h3>これから</h3>
+### これから
 
 <!-- TODO: 勉強で使用した本や記事、動画など -->
 ---
 layout: center
 ---
 
-<h2>これから</h2>
+### これから
 
 <!-- TODO: 難しかったポイント -->
 ---
 layout: center
 ---
 
-<h3></h3>
+### これから
 
 <!-- TODO: 実務に入って学んだこと -->
 ---
 layout: center
 ---
 
-<h3></h3>
+### これから
