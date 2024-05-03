@@ -49,7 +49,7 @@ importers:
         specifier: ^1.43.1
         version: 1.43.1
 
-  sample-slide/src: {}
+  lt-kamakura-go/src: {}
 
   within-a-company-presen/src: {}
 
