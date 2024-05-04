@@ -7,7 +7,8 @@ layout: center
   <ul>
     <li>自己紹介</li>
     <li>勉強</li>
-    <li>ポイント</li>
+    <li>難しかったポイント</li>
+    <li>楽しかったポイント</li>
     <li>実務で学んだこと</li>
     <li>これから</li>
   </ul>

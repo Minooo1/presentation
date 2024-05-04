@@ -33,30 +33,56 @@ src: "./pages/agenda.md"
 src: "./pages/introduction.md"
 ---
 
-<!-- TODO: Go のバックエンドエンジニアになろうと思った理由 -->
 ---
 layout: center
 ---
 
-### これから
+# どんな勉強をしたのか
 
-<!-- TODO: 勉強で使用した本や記事、動画など -->
+---
+src: "./pages/study.md"
+---
+
 ---
 layout: center
 ---
 
-### これから
+# 難しかったポイント
 
-<!-- TODO: 難しかったポイント -->
+---
+src: "./pages/difficult_point.md"
+---
+
 ---
 layout: center
 ---
 
-### これから
+# 楽しかったポイント
 
-<!-- TODO: 実務に入って学んだこと -->
+---
+src: "./pages/fun_point.md"
+---
+
 ---
 layout: center
 ---
 
-### これから
+# 実務で学んだこと
+
+---
+src: "./pages/job_study.md"
+---
+
+---
+layout: center
+---
+
+# これから
+
+---
+src: "./pages/feature.md"
+---
+
+---
+layout: end
+---
