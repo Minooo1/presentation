@@ -1,6 +1,8 @@
 ---
 theme: default
 class: text-center
+favicon: "./public/favicon.ico"
+colorSchema: light
 highlighter: shiki
 lineNumbers: false
 fonts:
@@ -12,18 +14,23 @@ transition: slide-left
 title: kamakura.go LT発表
 mdc: true
 layout: cover
+canvasWidth: 1200
 ---
 
-# フロントエンドエンジニアの僕がバックエンドエンジニアに転向して3ヶ月たったので振り返ってみる
+# フロントエンドエンジニアから
+# バックエンドエンジニアに転向して
+# 3ヶ月たったので振り返ってみる
 
-<!-- TODO: アジェンダ -->
+kamakura.go #6 @大船
+
+株式会社StoreHero 美野佑太
+
 ---
-src: "./pages/start.md"
+src: "./pages/agenda.md"
 ---
 
-<!-- TODO: 自己紹介 -->
 ---
-src: "./pages/start.md"
+src: "./pages/introduction.md"
 ---
 
 <!-- TODO: Go のバックエンドエンジニアになろうと思った理由 -->
