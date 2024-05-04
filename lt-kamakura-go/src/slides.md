@@ -50,7 +50,7 @@ layout: center
 # 難しかったポイント
 
 ---
-src: "./pages/difficult_point.md"
+src: "./pages/difficulty.md"
 ---
 
 ---
@@ -60,7 +60,7 @@ layout: center
 # 楽しかったポイント
 
 ---
-src: "./pages/fun_point.md"
+src: "./pages/good.md"
 ---
 
 ---
@@ -70,7 +70,7 @@ layout: center
 # 実務で学んだこと
 
 ---
-src: "./pages/job_study.md"
+src: "./pages/learning_job.md"
 ---
 
 ---
@@ -80,7 +80,7 @@ layout: center
 # これから
 
 ---
-src: "./pages/feature.md"
+src: "./pages/going_forward.md"
 ---
 
 ---
