@@ -26,12 +26,26 @@ layout: center
     <ul>
       <li class="my-0 mb-0.5">
         2022年5月~ 2023年2月 受託開発企業（バスのマッチングサービス）
+        <div class="flex">
+          <img class="w-10 h-10" src="/public/images/nuxt.png" alt="NuxtJSのロゴ" />
+          <img class="w-10 h-10" src="/public/images/js.png" alt="JavaScriptのロゴ" />
+          <img class="w-10 h-10" src="/public/images/typescript.png" alt="TypeScriptのロゴ" />
+          <img class="w-10 h-15" src="/public/images/firebase.png" alt="Firebaseのロゴ" />
+        </div>
       </li>
-      <li class="my-0 mb-0.5">
+      <li class="my-0 mb-4">
         2023年5月~ 2023年12月 自社開発企業（フィットネス系）
+        <div class="flex">
+          <img class="w-10 h-10" src="/public/images/nuxt.png" alt="NuxtJSのロゴ" />
+          <img class="w-10 h-10" src="/public/images/js.png" alt="JavaScriptのロゴ" />
+          <img class="w-10 h-10" src="/public/images/typescript.png" alt="TypeScriptのロゴ" />
+        </div>
       </li>
       <li class="my-0 mb-0.5">
         2024年2月~ 株式会社StoreHero
+        <div class="flex">
+          <img class="w-15 h-15" src="/public/images/go.png" alt="Goのロゴ" />
+        </div>
       </li>
     </ul>
   </div>
