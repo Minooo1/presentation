@@ -13,7 +13,8 @@
     "@slidev/theme-seriph": "latest",
     "safe-compare": "^1.1.4",
     "slidev-theme-geist": "^0.8.1",
-    "static-auth": "^2.1.2"
+    "static-auth": "^2.1.2",
+    "vite-plugin-html": "^3.2.2"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.66",
