@@ -1,6 +1,6 @@
 # presentaiton
 
-[slidev](https://sli.dev) を使ったスライド&コードを管理するためのリポジトリです。
+[slidev](https://sli.dev) を使ったコードを管理するためのリポジトリです。
 
 このディレクトリはモノレポ構成になっています。
 
