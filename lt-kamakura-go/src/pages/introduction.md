@@ -15,7 +15,7 @@ layout: center
     </div>
     <ul>
       <li class="my-0 mb-0.5">
-        <span class="font-bold">経歴</span>：サッカー選手 → 受託開発 → 自社開発（フィットネス系）</li>
+        <span class="font-bold">経歴</span>：サッカー選手 → 受託開発（2022年5月〜） → 自社開発（フィットネス系）</li>
       <li class="my-0 mb-0.5">
         <span class="font-bold">役割</span>：StoreHeroのAPI開発</li>
       <li class="my-0 mb-4">
@@ -38,3 +38,12 @@ layout: center
     </div>
   </div>
 </div>
+
+<!--
+改めまして、美野佑太と申します。
+現在、株式会社StoreHeroのバックエンドエンジニアとして、StoreHeroというプロダクトの開発を日々行なっています。
+
+私自身の経歴はとしましては、エンジニアになる前は大学を卒業してサッカー選手をしていました。その後エンジニアにキャリアチェンジし、2年弱が経ったような形になります。
+
+エンジニアになった当初はフロントエンドエンジニアとして、Nuxt.jsとFirebaseを使ってWebサービスの開発や運用を担当していました。今年の2月のStoreHero入社と同時にバックエンドエンジニアにキャリアチェンジし3ヶ月が経過した、ということになります。
+-->
