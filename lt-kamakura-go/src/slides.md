@@ -1,9 +1,8 @@
 ---
 theme: default
-class: text-center
+background: /images/gopher.png
 favicon: "./public/favicon.ico"
 colorSchema: light
-highlighter: shiki
 lineNumbers: false
 fonts:
   sans: Noto Sans JP
@@ -13,17 +12,17 @@ drawings:
 transition: slide-left
 title: kamakura.go LT発表
 mdc: true
-layout: cover
 canvasWidth: 1200
 ---
 
-# フロントエンドエンジニアから
-# バックエンドエンジニアに転向して
-# 3ヶ月たったので振り返ってみる
-
-kamakura.go #6 @大船
-
-株式会社StoreHero 美野佑太
+<div class="text-center">
+  <h2 class="mb-3">フロントエンドエンジニアから</h2>
+  <h2 class="mb-3">Goエンジニアに転向して</h2>
+  <h2>3ヶ月たったので振り返ってみる</h2>
+  <p>kamakura.go #6 @大船</p>
+  <p>株式会社StoreHero</p>
+  <p>美野佑太</p>
+</div>
 
 ---
 src: "./pages/agenda.md"
