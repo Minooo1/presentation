@@ -1,12 +1,12 @@
 ---
 theme: default
 background: /images/gopher.png
-favicon: "./public/favicon.ico"
+favicon: /favicon.ico
 colorSchema: light
 lineNumbers: false
 fonts:
   sans: Noto Sans JP
-info: kamakura.go LT発表スライド
+info: kamakura.go LT発表のスライド資料です。
 drawings:
   persist: false
 transition: slide-left
@@ -19,7 +19,7 @@ canvasWidth: 1200
   <h2 class="mb-3">フロントエンドエンジニアから</h2>
   <h2 class="mb-3">Goエンジニアに転向して</h2>
   <h2>3ヶ月経ったので振り返ってみる</h2>
-  <p>kamakura.go #6 @大船</p>
+  <p>kamakura.Go #6 @大船</p>
   <p>株式会社StoreHero</p>
   <p>美野佑太</p>
 </div>
@@ -57,27 +57,22 @@ src: "./pages/career-change.md"
 layout: center
 ---
 
-# 難しかったポイント
+# 勉強して感じたこと6選
+
+<!--
+では実際にGoを勉強してみてどんなことを感じたか
+またこの時に初めてバックエンドの言語を触った
+-->
 
 ---
-src: "./pages/difficulty.md"
----
-
----
-layout: center
----
-
-# 楽しかったポイント
-
----
-src: "./pages/good.md"
+src: "./pages/study.md"
 ---
 
 ---
 layout: center
 ---
 
-# 実務で学んだこと
+# 3ヶ月間の実務での学び
 
 ---
 src: "./pages/learning_job.md"
