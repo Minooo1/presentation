@@ -1,5 +1,5 @@
 ---
-title: 3ヶ月間の実務での学び
+title: 3ヶ月やってみての振り返り
 layout: default
 ---
 
@@ -17,7 +17,7 @@ if person.email != nil {
 ```
 
 ---
-title: 3ヶ月間の実務での学び
+title: 3ヶ月やってみての振り返り
 layout: default
 ---
 
@@ -35,7 +35,7 @@ if person.email != nil {
 ```
 
 ---
-title: 3ヶ月間の実務での学び
+title: 3ヶ月やってみての振り返り
 layout: default
 ---
 
@@ -53,7 +53,7 @@ if person.email != nil {
 ```
 
 ---
-title: 3ヶ月間の実務での学び
+title: 3ヶ月やってみての振り返り
 layout: default
 ---
 
@@ -61,7 +61,20 @@ layout: default
 ### 条件分岐でbreakする
 
 ---
-title: 3ヶ月間の実務での学び
+title: 3ヶ月やってみての振り返り
+layout: default
+---
+
+### interface難しい
+
+- 設計
+- 抽象度揃える
+
+go 100の間違い（日本語訳ver）
+> 抽象化は作成されるべきものではなく、発見されるべきものです。不必要な複雑さを避けるために、インタフェースは、必要になると予測したときではなく、必要になったときに作成するか、少なくとも抽象化が有効であることを証明できる場合に作成してください。
+
+---
+title: 3ヶ月やってみての振り返り
 layout: default
 ---
 

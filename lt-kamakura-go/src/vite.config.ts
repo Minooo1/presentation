@@ -1,9 +1,9 @@
 import { defineConfig, HtmlTagDescriptor } from "vite";
 import { createHtmlPlugin } from "vite-plugin-html";
 
-const title = "kamakura.Go #6 LT発表スライド";
+const title = "kamakura.go #6 LT発表スライド";
 const imagePath = "/images/gopher.png";
-const description = "kamakura.Goで初めてのLTで登壇した時のスライドです。";
+const description = "kamakura.goで初めてのLTで登壇した時のスライドです。";
 
 const metaDatas = [
   // OG

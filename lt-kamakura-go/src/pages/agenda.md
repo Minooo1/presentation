@@ -5,12 +5,11 @@ layout: intro
 
 <div>
   <h1>本日のアジェンダ</h1>
-  <ul class="text-2xl">
+  <ol class="text-2xl">
     <li>Goを勉強したいと思ったきっかけ</li>
-    <li>勉強して感じたこと6選</li>
-    <li>3ヶ月間の実務での学び</li>
-    <li>これから頑張りたいこと</li>
-  </ul>
+    <li>勉強して感じたこと6選+α</li>
+    <li>3ヶ月やってみての振り返り</li>
+  </ol>
 </div>
 
 <!--

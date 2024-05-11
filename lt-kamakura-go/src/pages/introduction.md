@@ -11,15 +11,15 @@ layout: center
   <div class="flex flex-col justify-between">
     <div>
       <p class="text-4xl font-bold pb-2">美野佑太（Mino Yuta）</p>
-      <p>2024年2月〜 株式会社StoreHero バックエンドエンジニア</p>
+      <p>株式会社StoreHero バックエンドエンジニア</p>
     </div>
     <ul>
       <li class="my-0 mb-0.5">
-        <span class="font-bold">経歴</span>：サッカー選手 → 受託開発（2022年5月〜） → 自社開発（フィットネス系）</li>
+        <span class="font-bold">経歴</span>：サッカー選手 → 受託開発（2022年5月〜） → 自社開発（2023年5月〜） → StoreHero（2024年2月〜） </li>
       <li class="my-0 mb-0.5">
-        <span class="font-bold">役割</span>：StoreHeroのAPI開発</li>
+        <span class="font-bold">役割</span>：StoreHeroのバックエンド開発</li>
       <li class="my-0 mb-4">
-        <span class="font-bold">スキル</span>：Nuxt.js, JavaScript, TypeScript, Go
+        <span class="font-bold">スキル</span>：JavaScript, TypeScript, Nuxt.js, Go
       </li>
     </ul>
     <div>
