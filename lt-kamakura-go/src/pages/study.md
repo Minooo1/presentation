@@ -1,5 +1,5 @@
 ---
-title: 勉強して感じたこと6選+α+α
+title: 勉強して感じたこと6選+α
 layout: default
 ---
 
@@ -37,7 +37,7 @@ func (p *Person) NewPerson() *Person {
 ```
 
 ---
-title: 勉強して感じたこと6選+α+α
+title: 勉強して感じたこと6選+α
 layout: default
 ---
 
@@ -74,7 +74,7 @@ layout: default
 </div>
 
 ---
-title: 勉強して感じたこと6選+α+α
+title: 勉強して感じたこと6選+α
 layout: default
 ---
 
@@ -93,7 +93,7 @@ string型 → 空文字列
 ```
 
 ---
-title: 勉強して感じたこと6選+α+α
+title: 勉強して感じたこと6選+α
 layout: default
 ---
 
@@ -112,28 +112,15 @@ string型 → 空文字列
 ```
 
 ---
-title: 勉強して感じたこと6選+α+α
+title: 勉強して感じたこと6選+α
 layout: default
 ---
 
 ## 5.値型と参照型
 
 ---
-title: 勉強して感じたこと6選+α+α
+title: 勉強して感じたこと6選
 layout: default
 ---
 
 ## 6.fmt系の種類が多い
-
----
-title: 勉強して感じたこと6選+α+α
-layout: default
----
-
-## more
-
-- 未使用変数や未使用インポートがあるとコンパイルエラーとして扱ってくれる
-- 型安全である
-- どの環境でもコンパイルして動く
-- 定数や変数をまとめて宣言できる
-- 変数宣言時のメモリのことを意識するようになった

@@ -57,7 +57,7 @@ src: "./pages/career-change.md"
 layout: center
 ---
 
-# 勉強して感じたこと6選+α
+# 勉強して感じたこと6選
 
 <!--
 では実際にGoを勉強してみてどんなことを感じたか
