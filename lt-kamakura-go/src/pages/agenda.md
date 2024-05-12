@@ -7,7 +7,7 @@ layout: intro
   <h1>本日のアジェンダ</h1>
   <ol class="text-2xl">
     <li>Goを勉強したいと思ったきっかけ</li>
-    <li>勉強して感じたこと6選</li>
+    <li>勉強して感じたこと5選</li>
     <li>3ヶ月やってみての振り返り</li>
   </ol>
 </div>
