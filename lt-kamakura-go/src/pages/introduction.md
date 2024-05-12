@@ -15,7 +15,7 @@ layout: center
     </div>
     <ul>
       <li class="my-0 mb-0.5">
-        <span class="font-bold">経歴</span>：サッカー選手 → 受託開発（2022年5月〜） → 自社開発（2023年5月〜） → StoreHero（2024年2月〜） </li>
+        <span class="font-bold">経歴</span>：サッカー選手 → 受託開発企業（2022年5月〜） → 自社開発企業（2023年5月〜） → StoreHero（2024年2月〜） </li>
       <li class="my-0 mb-0.5">
         <span class="font-bold">役割</span>：StoreHeroのバックエンド開発</li>
       <li class="my-0 mb-4">
