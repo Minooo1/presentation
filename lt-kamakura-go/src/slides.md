@@ -17,7 +17,7 @@ canvasWidth: 1200
 
 <div class="text-center">
   <h2 class="mb-3">フロントエンドエンジニアから</h2>
-  <h2 class="mb-3">Goエンジニアに転向して</h2>
+  <h2 class="mb-3">Goを使ったバックエンドエンジニアに転向して</h2>
   <h2>3ヶ月経ったので振り返ってみる</h2>
   <p>kamakura.go #6 @大船</p>
   <p>株式会社StoreHero</p>
