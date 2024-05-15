@@ -1,48 +1,42 @@
 ---
-title: 勉強して感じたこと6選+α
+title: 勉強して感じたこと4選
 layout: default
 ---
 
-## 1.構造体 is 何
-クラスが存在しない、任意の型を一つのまとまりにしたもの
+## 🤔 構造体 is 何
+「複数の任意の型の値を一つのまとまり」で定義したデータ構造
+
+Goにはクラスが存在しないが、クラスと似たようなもの。
+
+Userというデータモデルを定義したいときには、名前や年齢、アドレスなどの必要な情報をひとまとまりにすることで定義することができる。
 
 ```go
-type Person struct {
-  name  string // ← フィールド
-  email string
-  phone string
+type User struct {
+  name    string // ← フィールド
+  age     int
+  address string
 }
 ```
 
-「タグ」というフィールドにメタ情報を付与できる機能を用いて
+構造体のインスタンス化はNew（型名）という命名のファクトリー関数などで行う方法がある
 
 ```go
-type Person struct {
-  name  string `json: "name"`
-  email string `json: "email"`
-  phone string `json: "phone"`
-}
-```
-
-型のコンストラクタはNew（型名）という命名が一般的
-
-```go
-func (p *Person) NewPerson() *Person {
-  return &Person{
-    Name: p.Name
-    Email: p.Email
-    Phone: p.Phone
+func NewUser(name, address string, age int) *User {
+  return &User{
+    Name: name
+    Age: age
+    Address: address
   }
 }
 ```
 
 ---
-title: 勉強して感じたこと6選+α
+title: 勉強して感じたこと4選
 layout: default
 ---
 
-## 2.ゼロ値と初期値はイコールではない
-ゼロ値は変数に初期値を与えずに宣言した場合に与えられる。値は型によって変化する。
+## 🤔 ゼロ値 is 何
+ゼロ値は変数に初期値を与えずに宣言した場合に与えられる、デフォルトの値。デフォルト値は型によって変化する。
 
 <div>
   <table class="table-fixed">
@@ -54,37 +48,60 @@ layout: default
     </thead>
     <tbody>
       <tr>
-        <td>数値型（int, float）</td>
+        <td>int, uint, float</td>
         <td>0</td>
       </tr>
       <tr>
-        <td>bool型</td>
+        <td>byte, rune</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>bool</td>
         <td>false</td>
       </tr>
       <tr>
-        <td>string型</td>
+        <td>string</td>
         <td>""</td>
       </tr>
       <tr>
-        <td>ポインタ,インターフェース</td>
+        <td>error</td>
+        <td>nil</td>
+      </tr>
+      <tr>
+        <td>pointer,interface,slice,map, channel, function...</td>
         <td>nil</td>
       </tr>
     </tbody>
   </table>
 </div>
 
+JavaScriptで初期値なしの変数宣言をした場合は`undefined`が入る
+
+```js
+let message; // undefined
+```
+
 ---
-title: 勉強して感じたこと6選+α
+title: 勉強して感じたこと4選
 layout: default
 ---
 
-## 3.nil is 何
+## 🤔 nil is 何
+pointer, interface, slice, map, channel, functionなどの型が持つゼロ値。
 
-nullとは似ているようで異なる概念
-nullは値が存在しないことを表し未定義な状態を表す
-nilはそれ自体が値であり、型を持っている。
+JavaScriptで出てきたnullとは似ているようで異なる。
+nullは値が存在しないことを表し未定義な状態を表す。
+nilは**それ自体が値であり、型を持っている**。
 
-ゼロ値は変数に初期値を与えずに宣言した場合に与えられる。値は型によって変化する。
+そのため型が違う同士の等価比較は`false`になる。
+
+```go
+var i *int32
+var s *string
+🙅 i == s // 一致しない
+```
+
+インターフェースとポインタのnil値は違う
 
 ```go
 数値型（int, float,etc...）→ 0
@@ -93,34 +110,21 @@ string型 → 空文字列
 ```
 
 ---
-title: 勉強して感じたこと6選+α
+title: 勉強して感じたこと4選
 layout: default
 ---
 
-## 4.ポインタとアドレス is 何
+## 🤔 ポインタ??アドレス?? is 何
+おそらく勉強しながら一番理解するのに苦労した部分。
 
-nullとは似ているようで異なる概念
-nullは値が存在しないことを表し未定義な状態を表す
-nilはそれ自体が値であり、型を持っている。
+まずは変数がコンピュータ上でどのように格納されているかを知る必要があった。
 
-ゼロ値は変数に初期値を与えずに宣言した場合に与えられる。値は型によって変化する。
+ポインタとはメモリのアドレス
 
-```go
-数値型（int, float,etc...）→ 0
-bool型 → false
-string型 → 空文字列
-```
+ポインタ変数はメモリ上のアドレスを値として持つ
 
----
-title: 勉強して感じたこと6選+α
-layout: default
----
+アドレスとは変数が格納されている場所を指し示す
 
-## 5.値型と参照型
-
----
-title: 勉強して感じたこと6選
-layout: default
----
-
-## 6.fmt系の種類が多い
+デリファレンス
+&を使ってポインタ型を生成することができる
+ポインタ変数のメモリ上のアドレスを経由してデータの実体を参照する仕組み
