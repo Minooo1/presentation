@@ -6,6 +6,7 @@ h3
 }
 
 code.language-go,
-code.language-js {
-  font-size: 16px;
+code.language-js,
+code.language-json {
+  font-size: 18px;
 }
