@@ -11,14 +11,14 @@ layout: center
   <div class="flex flex-col justify-between">
     <div>
       <p class="text-4xl font-bold pb-2">美野佑太（Mino Yuta）</p>
-      <p>株式会社StoreHero バックエンドエンジニア</p>
+      <p class="career">株式会社StoreHero バックエンドエンジニア</p>
     </div>
     <ul>
-      <li class="my-0 mb-0.5">
+      <li class="career my-0 mb-0.5">
         <span class="font-bold">経歴</span>：サッカー選手 → サービス業 → 受託開発企業（2022年5月〜） → 自社開発企業（2023年5月〜） → StoreHero（2024年2月〜） </li>
-      <li class="my-0 mb-0.5">
+      <li class="career my-0 mb-0.5">
         <span class="font-bold">役割</span>：StoreHeroのバックエンド開発</li>
-      <li class="my-0 mb-4">
+      <li class="career my-0 mb-4">
         <span class="font-bold">スキル</span>：JavaScript, TypeScript, Nuxt.js, Go
       </li>
     </ul>
@@ -39,11 +39,17 @@ layout: center
   </div>
 </div>
 
+<style>
+.career {
+  font-size:20px
+}
+</style>
+
 <!--
 改めまして、美野佑太と申します。
 現在、株式会社StoreHeroのバックエンドエンジニアとして、StoreHeroというプロダクトの開発を日々行なっています。
 
 私自身の経歴としましては、エンジニアになる前は大学を卒業してサッカー選手をしていました。その後紆余曲折あり、エンジニアにキャリアチェンジし、2年弱が経ったような形になります。
 
-エンジニアになった当初はフロントエンドエンジニアとして、Nuxt.jsとFirebaseを使ってWebサービスの開発や運用を担当していました。今年の2月のStoreHero入社と同時にバックエンドエンジニアにキャリアチェンジし3ヶ月が経過した、ということになります。
+エンジニアになった当初はフロントエンドエンジニアだったのですが、今年の2月にStoreHeroに入社したタイミングでバックエンドエンジニアに転向した形になります。
 -->
