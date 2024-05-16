@@ -49,5 +49,8 @@ src: "./pages/learning_job.md"
 ---
 
 ---
-layout: end
+layout: center
+colorSchema: light
 ---
+
+# ご静聴ありがとうございました
