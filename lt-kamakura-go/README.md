@@ -1,11 +1,7 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)
+# lightning talk
 
-To start the slide show:
+2024年5月17日
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
+connpassの[kamakura.go](https://kamakurago.connpass.com/event/316438/)で初めてのLTをした際のスライド資料です。
 
-Edit the [slides.md](./slides.md) to see the changes.
 
-Learn more about Slidev on [documentations](https://sli.dev/).
