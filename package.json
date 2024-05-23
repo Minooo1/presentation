@@ -21,6 +21,6 @@
     "@slidev/types": "^0.49.3",
     "markdownlint": "^0.34.0",
     "markdownlint-cli": "^0.40.0",
-    "playwright-chromium": "^1.44.0"
+    "playwright-chromium": "^1.44.1"
   }
 }
