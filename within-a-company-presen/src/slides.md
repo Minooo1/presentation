@@ -15,8 +15,6 @@ transition: slide-left
 canvasWidth: 1200
 ---
 
-
-
 <!--
 開発部は日々様々な技術を駆使しながら、いろんな課題を解決して、会社に貢献しています。
 
@@ -25,11 +23,12 @@ canvasWidth: 1200
 
 --- <!-- markdownlint-disable-line MD041 -->
 src: "./pages/start.md"
+
 ---
 
 ---
-layout: center
----
+
+## layout: center
 
 <h1 v-click class="text-center font-bold"><span class="strong">自動テスト</span>の導入</h1>
 
@@ -45,13 +44,15 @@ layout: center
 -->
 
 ---
-src: "./pages/title01.md"
----
+
+## src: "./pages/title01.md"
 
 ---
+
 layout: center
 transition: fade-in
 title: テストの導入
+
 ---
 
 <h3 class="text-center font-bold">テスト</h3>
@@ -80,9 +81,11 @@ title: テストの導入
 -->
 
 ---
+
 layout: center
 title: テストの導入
 transition: fade-in
+
 ---
 
 <h4 class="font-bold mb-10 text-center">導入前</h4>
@@ -104,9 +107,11 @@ transition: fade-in
 -->
 
 ---
+
 layout: center
 title: テストの導入
 transition: fade-in
+
 ---
 
 <h4 class="font-bold mb-10 text-center">導入前</h4>
@@ -127,9 +132,11 @@ transition: fade-in
 -->
 
 ---
+
 layout: center
 title: テストの導入
 transition: fade-in
+
 ---
 
 <h4 class="font-bold mb-10 text-center">導入後</h4>
@@ -151,13 +158,15 @@ transition: fade-in
 -->
 
 ---
-src: "./pages/title02.md"
----
+
+## src: "./pages/title02.md"
 
 ---
+
 title: テストの紹介
 layout: center
 clicks: 4
+
 ---
 
 <h3 class="text-center font-bold mb-30">お問い合わせフォーム</h3>
@@ -184,8 +193,10 @@ clicks: 4
 -->
 
 ---
+
 title: テストの紹介
 layout: center
+
 ---
 
 <h3 class="text-center font-bold mb-30">お問い合わせフォーム</h3>
@@ -204,9 +215,11 @@ layout: center
 -->
 
 ---
+
 title: テストの紹介
 layout: center
 transition: fade-out
+
 ---
 
 <h3 class="text-center font-bold mb-20">UIテスト</h3>
@@ -219,16 +232,16 @@ transition: fade-out
 <!--
 それでは、次に2つ目のテストをご紹介したいと思います。
 
-⭐️UIテストとは、手を加える前と後でどの部分の見た目が変わったかを確認するテストです。
+UIテストとは、手を加える前と後でどの部分の見た目が変わったかを確認するテストです。
 
-⭐️自分が修正した箇所が他のページにもしまうことがあるので、そういった想定外の影響を事前に検知することを目的としています。
+自分が修正した箇所が他のページにもしまうことがあるので、そういった想定外の影響を事前に検知することを目的としています。
 
 これは修正前と修正後に撮ったページのスクリーンショットを比較することで差分を抽出するということを行っています。
 -->
 
 ---
-layout: default
----
+
+## layout: default
 
 <iframe id="iframe" title="reg-suit が出力したレポートの URL" src="https://lev-corporate-vrt-screenshots.s3.amazonaws.com/d9046f8f8e1825dee55f8b68c18e0f14719f8b57/index.html" width="100%" height="100%" allow="fullscreen"></iframe>
 
@@ -248,12 +261,14 @@ PR URL: https://github.com/Leverage-Inc/leverage-inc-v2/pull/511
 -->
 
 ---
-src: "./pages/title03.md"
----
+
+## src: "./pages/title03.md"
 
 ---
+
 layout: center
 title: テストの自動化
+
 ---
 
 <h4 class="font-bold mb-10 text-center">手動の場合</h4>
@@ -278,9 +293,11 @@ title: テストの自動化
 -->
 
 ---
+
 layout: center
 title: テストの自動化
 transition: fade-out
+
 ---
 
 <h4 class="font-bold mb-10 text-center">自動化</h4>
@@ -300,8 +317,10 @@ transition: fade-out
 -->
 
 ---
+
 layout: center
 title: テストの自動化
+
 ---
 
 <h4 class="font-bold mb-10 text-center">自動化</h4>
@@ -319,13 +338,15 @@ title: テストの自動化
 -->
 
 ---
-src: "./pages/title04.md"
----
+
+## src: "./pages/title04.md"
 
 ---
+
 layout: center
 transition: fade-in
 title: 導入結果
+
 ---
 
 <h3 class="mb-10 text-center font-bold">自動テストの導入</h3>
@@ -356,9 +377,11 @@ title: 導入結果
 -->
 
 ---
+
 layout: center
 transition: fade-in
 title: 導入結果
+
 ---
 
 <h3 class="mb-10 text-center font-bold">テストの自動化</h3>
@@ -381,8 +404,8 @@ title: 導入結果
 -->
 
 ---
-layout: end
----
+
+## layout: end
 
 <!--
 これで僕のプレゼンは以上とさせていただきます。
