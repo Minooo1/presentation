@@ -3,7 +3,8 @@ import { createHtmlPlugin } from "vite-plugin-html";
 
 const title = "2023年株式会社レバレッジ全社プレゼン発表スライド";
 const imagePath = "/images/slide-top.png";
-const description = "2023年に株式会社レバレッジの全社会で行われたプレゼン大会で実際に発表した時のスライドです。";
+const description =
+  "2023年に株式会社レバレッジの全社会で行われたプレゼン大会で実際に発表した時のスライドです。";
 
 const metaDatas = [
   // OG
@@ -13,7 +14,7 @@ const metaDatas = [
   },
   {
     property: "og:image",
-    content: imagePath,
+    content: new URL(imagePath, import.meta.url).href,
   },
   {
     property: "og:title",
@@ -63,7 +64,9 @@ const metaDatas = [
   },
 ];
 
-const generateMetaTag = (meta: typeof metaDatas[number]): HtmlTagDescriptor => ({
+const generateMetaTag = (
+  meta: (typeof metaDatas)[number]
+): HtmlTagDescriptor => ({
   injectTo: "head-prepend",
   tag: "meta",
   attrs: { ...meta },
@@ -78,4 +81,4 @@ export default defineConfig({
       },
     }),
   ],
-})
+});
