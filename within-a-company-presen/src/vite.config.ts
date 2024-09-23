@@ -5,6 +5,7 @@ const title = "2023年株式会社レバレッジ全社プレゼン発表スラ�
 const imagePath = "/images/slide-top.png";
 const description =
   "2023年に株式会社レバレッジの全社会で行われたプレゼン大会で実際に発表した時のスライドです。";
+const baseURL = "https://within-a-company-presen.vercel.app";
 
 const metaDatas = [
   // OG
@@ -14,7 +15,7 @@ const metaDatas = [
   },
   {
     property: "og:image",
-    content: import.meta.url + imagePath,
+    content: baseURL + imagePath,
   },
   {
     property: "og:title",

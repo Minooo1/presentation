@@ -4,6 +4,7 @@ import { createHtmlPlugin } from "vite-plugin-html";
 const title = "kamakura.go #6 LT発表スライド";
 const imagePath = "/images/gopher.png";
 const description = "kamakura.goで初めてのLTで登壇した時のスライドです。";
+const baseURL = "https://presentation-beryl.vercel.app";
 
 const metaDatas = [
   // OG
@@ -13,7 +14,7 @@ const metaDatas = [
   },
   {
     property: "og:image",
-    content: import.meta.url + imagePath,
+    content: baseURL + imagePath,
   },
   {
     property: "og:title",
