@@ -13,7 +13,7 @@ const metaDatas = [
   },
   {
     property: "og:image",
-    content: imagePath,
+    content: import.meta.url + imagePath,
   },
   {
     property: "og:title",
@@ -63,7 +63,9 @@ const metaDatas = [
   },
 ];
 
-const generateMetaTag = (meta: typeof metaDatas[number]): HtmlTagDescriptor => ({
+const generateMetaTag = (
+  meta: (typeof metaDatas)[number]
+): HtmlTagDescriptor => ({
   injectTo: "head-prepend",
   tag: "meta",
   attrs: { ...meta },
@@ -78,4 +80,4 @@ export default defineConfig({
       },
     }),
   ],
-})
+});

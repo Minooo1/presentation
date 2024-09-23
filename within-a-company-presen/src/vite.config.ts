@@ -14,7 +14,7 @@ const metaDatas = [
   },
   {
     property: "og:image",
-    content: new URL(imagePath, import.meta.url).href,
+    content: import.meta.url + imagePath,
   },
   {
     property: "og:title",
