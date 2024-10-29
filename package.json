@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.12.2",
+  "packageManager": "pnpm@9.12.3",
   "scripts": {
     "build": "npx -y rimraf dist && pnpm -r run build"
   },
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.1",
     "@slidev/types": "^0.49.29",
-    "markdownlint": "^0.36.0",
+    "markdownlint": "^0.36.1",
     "markdownlint-cli": "^0.42.0",
     "playwright-chromium": "^1.48.2"
   }
