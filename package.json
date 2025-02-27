@@ -1,12 +1,12 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.4.0",
+  "packageManager": "pnpm@10.5.2",
   "scripts": {
     "build": "npx -y rimraf dist && pnpm -r run build"
   },
   "dependencies": {
-    "@slidev/cli": "^51.1.1",
+    "@slidev/cli": "^51.3.0",
     "@slidev/theme-apple-basic": "^0.25.1",
     "@slidev/theme-bricks": "^0.25.0",
     "@slidev/theme-default": "latest",
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.3",
-    "@slidev/types": "^51.1.1",
+    "@slidev/types": "^51.3.0",
     "markdownlint": "^0.37.4",
     "markdownlint-cli": "^0.44.0",
     "playwright-chromium": "^1.50.1"
